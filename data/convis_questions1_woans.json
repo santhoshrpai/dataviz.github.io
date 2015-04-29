@@ -1,0 +1,1991 @@
+{
+
+"totalTopics":"10",
+
+"domain":"slashdot",
+
+
+"totalLines":"51",
+
+"topics":[{"topicID":1,"strength":88,"labels":[
+{"phrase":"Android","prob":0.2},
+{"phrase":"mobile","prob":0.2},
+{"phrase":" Java","prob":0.2},
+{"phrase":"google","prob":0.2},
+      {"phrase":"https","prob":0.2}]},
+
+{"topicID":2,"strength":7,"labels":[{"phrase":"Loops","prob":0.367826820806},{"phrase":"function","prob":0.261955329161},{"phrase":"While","prob":0.260373021189},{"phrase":"init","prob":0.0552599084916},{"phrase":"remove","prob":0.0545849203523}]},
+{"topicID":3,"strength":8,"labels":[{"phrase":"Servlets","prob":0.170144009755},{"phrase":"Tomcat","prob":0.170144009755},{"phrase":"Deploy","prob":0.164927995123},{"phrase":"invoke","prob":0.164927995123},{"phrase":"Util","prob":0.164927995123},{"phrase":"Apache","prob":0.164927995123}]},
+{"topicID":4,"strength":80,"labels":[{"phrase":"MultiThreading","prob":0.166666666667},{"phrase":"write","prob":0.166666666667},{"phrase":"produce","prob":0.166666666667},{"phrase":"complete","prob":0.166666666667},{"phrase":"execute","prob":0.166666666667},{"phrase":"single","prob":0.166666666667}]},
+{"topicID":5,"strength":20,"labels":[{"phrase":"Variables","prob":0.2},{"phrase":"size","prob":0.2},{"phrase":"number","prob":0.2},{"phrase":"character","prob":0.2},{"phrase":"byte","prob":0.2}]},
+{"topicID":6,"strength":7,"labels":[{"phrase":"JSON","prob":0.256645974355},{"phrase":"document","prob":0.186113412342},{"phrase":"parse","prob":0.186113412342},{"phrase":"null","prob":0.186034061379},{"phrase":"Annotation","prob":0.185093139582}]},
+{"topicID":7,"strength":7,"labels":[{"phrase":"Inheritance","prob":0.409374558127},{"phrase":"implement","prob":0.409374558127},{"phrase":"interface","prob":0.0604169612483},{"phrase":"subclass","prob":0.0604169612483},{"phrase":"instantiate","prob":0.0604169612483}]},
+{"topicID":8,"strength":17,"labels":[{"phrase":"Database","prob":0.227184151917},{"phrase":"table","prob":0.227184151917},{"phrase":"store","prob":0.227184151917},{"phrase":"save","prob":0.225811891145},{"phrase":"save","prob":0.0926356531028}]},
+{"topicID":9,"strength":10,"labels":[{"phrase":"Eclipse","prob":0.298665400282},{"phrase":"library","prob":0.17533364993},{"phrase":"include","prob":0.17533364993},{"phrase":"maven","prob":0.17533364993},{"phrase":"source","prob":0.17533364993}]},
+{"topicID":10,"strength":8,"labels":[{"phrase":"Network","prob":0.267809809442},{"phrase":"page","prob":0.218946001648},{"phrase":"response","prob":0.218946001648},{"phrase":"browse","prob":0.177124396867},{"phrase":"move","prob":0.117173790394}]}],
+
+"date":"Time is here",
+"author":"user",
+"title":"StackOverFlow Java",
+"sent": [
+         {"linePolarity":0,"systemtopicid":1, "systemlabel":"Android", "topicid":1, "goldlabel":"This is the header","sent":"Hierarchy of the Q&A","sentimentwords":[]}]
+,"children":[
+  {
+    "author": "gnasher729",
+    "parent": "",
+    "title": "\"Why does int i = 1024 * 1024 * 1024 * 1024 compile without error?\"",
+    "commentid": "q_96439",
+    "date": "Jul 10, 2014 5:17:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.8559999999999999,
+        "sent": " the limit of   is from -2147483648 to 2147483647.    if i input          then eclipse will prompt a red underline under \\\"2147483648\\\".    but if i do this:         it will compile fine.         maybe it's a basic question in java  but i have no idea why the second variant produces no error.  "
+      }
+    ]
+  },
+  {
+    "author": "ajb",
+    "parent": "",
+    "title": "\"Why does this random value have a 25/75 distribution instead of 50/50?\"",
+    "commentid": "q_2695",
+    "date": "Dec 23, 2014 10:57:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.9079999999999999,
+        "sent": "  edit:  so basically what i'm trying to write is a 1 bit hash for  .    i want to map a   to   or   with a 50/50 chance. for that i wrote code that picks some random numbers  (just as an example  i want to use this on data with regularities and still get a 50/50 result)   checks their last bit and increments   if it is 1  or   if it is 0.     however  this code constantly results in 25%   and 75%  . why is it not 50/50? and why such a weird  but straight-forward (1/3) distribution?         example output:       "
+      }
+    ]
+  },
+  {
+    "author": "La-comadreja",
+    "parent": "",
+    "title": "\"Why does Java think that the product of all numbers from 10 to 99 is 0?\"",
+    "commentid": "q_44097",
+    "date": "Oct 14, 2014 11:34:01 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.6680000000000001,
+        "sent": " the following block of codes gives the output as 0.         please can somebody explain why this happens?  "
+      }
+    ]
+  },
+  {
+    "author": "EJP",
+    "parent": "",
+    "title": "\"Why is Cloneable not deprecated?\"",
+    "commentid": "q_43390",
+    "date": "Oct 16, 2014 12:48:42 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.5880000000000001,
+        "sent": " it is commonly understood that   interface in java is broken. there are many reasons for this  which i will not mention;  others  already did it. it is also the position of  java architects  themselves.    my question is therefore: why has is not been deprecated yet? if the core java team have decided that it is broken  then they must also have considered deprecation. what are their reasons against doing so (in java 8 it is  still not deprecated )?   "
+      }
+    ]
+  },
+  {
+    "author": "maaartinus",
+    "parent": "",
+    "title": "\"Why does the Java API use int instead of short or byte?\"",
+    "commentid": "q_19173",
+    "date": "Nov 25, 2014 2:11:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.28400000000000025,
+        "sent": " why does the  java api  use   if   or even   would be sufficient?    example: the     field in calendar uses  .     edit:     aspects of interest:      storage   calculations      if the difference is too minimal  then why do these datatypes (short  int) exist at all? legacy?  "
+      }
+    ]
+  },
+  {
+    "author": "Ira Baxter",
+    "parent": "",
+    "title": "\"What makes Java easier to parse than C?\"",
+    "commentid": "q_45564",
+    "date": "Oct 12, 2014 2:58:53 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.031999999999999806,
+        "sent": " i'm acquainted with the fact that  c and c++ are context-sensitive   and in particular you need a \\\"lexer hack\\\" in c. on the other hand  i'm under the impression that you can parse java with only 2 tokens of look-ahead  despite considerable similarity between the two languages.     what would you have to change about c to make it more tractable to parse?     i ask because all of the examples i've seen of c's context-sensitivity are technically allowable but awfully weird. for example          could be calling the void function   with argument  . or  it could be declaring   to be an object of type    but you could just as easily get rid of the parantheses. in part  this weirdness occurs because the \\\"direct declarator\\\" production rule for the  c grammar  fulfills the dual purpose of declaring both functions and variables.    on the other hand  the  java grammar  has separate production rules for variable declaration and function declaration. if you write         then you know it's a variable declaration and   can unambiguously be parsed as a typename. this might not be valid code if the class   hasn't been defined somewhere in the current scope  but that's a job for semantic analysis that can be performed in a later compiler pass.    i've seen it said that c is hard to parse because of typedef  but you can declare your own types in java too. which c grammar rules  besides    are at fault?  "
+      }
+    ]
+  },
+  {
+    "author": "Tarun Varshney",
+    "parent": "",
+    "title": "\"Why doesn&#39;t RecyclerView have onItemClickListener()? and How RecyclerView is different from Listview?\"",
+    "commentid": "q_89996",
+    "date": "Jul 22, 2014 3:43:39 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1,
+        "systemtopicid": 1,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": 1.04,
+        "sent": " i don't know whether i am asking the right question. i was exploring recyclerview and i was surprised to see that recyclerview does not have onitemclicklistener(). because recyclerview extends  android.view.viewgroup . and listview extends  android.widget.abslistview .  however i solved my problem by writing onclick in my recyclerview.adapter:         but still i want to know why google removed onitemclicklistener()? is there a performance issue or something else?  "
+      }
+    ]
+  },
+  {
+    "author": "James_pic",
+    "parent": "",
+    "title": "\"What is a possible use case of BigInteger&#39;s .isProbablePrime()?\"",
+    "commentid": "q_8732",
+    "date": "Dec 11, 2014 11:39:57 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 8,
+        "systemtopicid": 8,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Database",
+        "linePolarity": -1.2,
+        "sent": "  the method biginteger.isprobableprime()  is quite strange; from the documentation  this will tell whether a number is prime with a probability of    where   is the integer argument.    it has been present in the jdk for quite a long time  so it means it must have uses. my limited knowledge in computer science and algorithms (and maths) tells me that it does not really make sense to know whether a number is \\\"probably\\\" a prime but not exactly a prime.    so  what is a possible scenario where one would want to use this method? cryptography?  "
+      }
+    ]
+  },
+  {
+    "author": "usr",
+    "parent": "",
+    "title": "\"Is (x - x) always positive zero for doubles  or sometimes negative zero?\"",
+    "commentid": "q_87987",
+    "date": "Jul 25, 2014 1:06:24 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": 0.0,
+        "sent": " when   is a    is   guaranteed to be    or might it sometimes be   (depending on the sign of  )?  "
+      }
+    ]
+  },
+  {
+    "author": "KisHan SarsecHa Gajjar",
+    "parent": "",
+    "title": "\"Do &quot;nothing&quot; while &quot;condition&quot;\"",
+    "commentid": "q_98540",
+    "date": "Jul 7, 2014 4:30:21 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.9079999999999999,
+        "sent": " while browsing the code for the java 8 version of forkjoinpool(which has a few interesting changes from java 7) i ran across this construct ( here ):         i'm struggling with why you would write it like this instead of just         is it just a semantics/readability choice  since you could read the first construct as  ? or is there some additional benefit i'm missing?  "
+      }
+    ]
+  },
+  {
+    "author": "Leo",
+    "parent": "",
+    "title": "Explain the syntax of Collections.&lt;String&gt;emptyList()",
+    "commentid": "q_908",
+    "date": "Dec 28, 2014 10:18:20 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10,
+        "systemtopicid": 10,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": 0.0,
+        "sent": " i just studied about generic programming  the   interface  and    so i can understand the statement below.         but i don't understand the next statement which i saw while surfing the web.           what is  ? why isn't it   or  ?   why is   placed before the method name  ?      (isn't   correct for generic?)      what does the statement mean?    "
+      }
+    ]
+  },
+  {
+    "author": "August",
+    "parent": "",
+    "title": "\"Why does one long string take MORE space than lots of small strings?\"",
+    "commentid": "q_16763",
+    "date": "Nov 28, 2014 2:54:34 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.28400000000000003,
+        "sent": " here is some code for a dfa  implemented as an array of strings:         i thought i could save some space by using one long string instead of a string array:         as it turns out  i was wrong. eclipse kepler generates the following class files:         how come the second class is even bigger than the first class? do very long strings incur some space penalty i am not aware of?  "
+      }
+    ]
+  },
+  {
+    "author": "Ruchira Gayan Ranaweera",
+    "parent": "",
+    "title": "\"Infinite loop breaks method signature without compilation error\"",
+    "commentid": "q_81842",
+    "date": "Aug 6, 2014 12:24:30 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -1.0,
+        "sent": " i am wondering why is the following code allowed in java  without getting compilation error? in my opinion  this code breaks method signature by not returning any  . could someone explain what i'm missing here?         "
+      }
+    ]
+  },
+  {
+    "author": "Dima",
+    "parent": "",
+    "title": "\"Why are arrays Objects  but can not be used as a base class?\"",
+    "commentid": "q_6394",
+    "date": "Dec 16, 2014 5:42:03 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.948,
+        "sent": " the java language specification specifies that         in the java programming language arrays are objects (?4.3.1)  are dynamically created  and may be assigned to variables of type object (?4.3.2). all methods of class   may be invoked on an array.      so  considering arrays are objects ? why did the java designers make the decision not to allow inherit and override from it  for example      or  ?    the current syntax wouldn't allow creating anonymous classes with an array as the base class  but i don't think  that  was the reason for their decision.  "
+      }
+    ]
+  },
+  {
+    "author": "tobias_k",
+    "parent": "",
+    "title": "\"What does the -&gt; &lt;- operator do?\"",
+    "commentid": "q_88353",
+    "date": "Jul 24, 2014 8:46:30 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.6680000000000001,
+        "sent": " i recently came upon the following code:         what is this  some sort of reverse double lambda?  "
+      }
+    ]
+  },
+  {
+    "author": "Rahul Tripathi",
+    "parent": "",
+    "title": "\"Java Primitives range calculation\"",
+    "commentid": "q_93450",
+    "date": "Jul 15, 2014 10:39:25 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.0,
+        "sent": " in java when we declare          it will gives compile time error but           compiles fine.  why this happened?   "
+      }
+    ]
+  },
+  {
+    "author": "Chris K",
+    "parent": "",
+    "title": "\"Why can&#39;t you add an int and a char in some cases?\"",
+    "commentid": "q_98577",
+    "date": "Jul 7, 2014 3:16:50 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": 0.0,
+        "sent": " why does         work  but         doesn't?  "
+      }
+    ]
+  },
+  {
+    "author": "falsarella",
+    "parent": "",
+    "title": "\"Are the bit patterns of NaNs really hardware-dependent?\"",
+    "commentid": "q_85007",
+    "date": "Jul 30, 2014 7:56:13 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.17199999999999993,
+        "sent": " i was reading about floating-point nan values in the java language specification (i'm boring). a 32-bit   has this bit format:           is the sign bit    are the exponent bits  and   are the mantissa bits. a nan value is encoded as an exponent of all 1s and the mantissa bits are not all 0 (which would be +/- infinity). this means that there are lots of different possible nan values (having different   and   bit values).    on this   jls ?4.2.3  says:        ieee 754 allows multiple distinct nan values for each of its single and double floating-point formats. while each hardware architecture returns a particular bit pattern for nan when a new nan is generated  a programmer can also create nans with different bit patterns to encode  for example  retrospective diagnostic information.      the text in the jls seems to imply that the result of  for example     has a hardware-dependent bit pattern  and depending on whether that expression was computed as a compile time constant  the hardware it is dependent on might be the hardware the java program was compiled on or the hardware the program was run on. this all seems  very  flaky if true.    i ran the following test:         the output on my machine is:         the output indicates that the exponent bits are 1 as expected. the upper bit of the mantissa is also 1  which for nans apparently indicates a 'quiet nan' as opposed to a 'signalling nan' ( https://en.wikipedia.org/wiki/nan#floating_point ). the sign bit and the rest of the mantissa bits are 0. the output also indicates that there was no difference between the nans generated on my machine and the constant nans from the float and double classes.    my question is  is that output guaranteed in java  regardless of the cpu of the compiler or vm  or is it all genuinely unpredictable? the jls is mysterious about this.    if that output is guaranteed for    are there any arithmetic ways of producing nans that have other (possibly hardware-dependent?) bit patterns? (i know i could use  /  to encode other nans deliberately  but i would like to know if other values can occur from normal arithmetic.)       a followup question: i've noticed that  float.nan  and  double.nan  specify their exact bit pattern  but in the source ( float    double ) they are generated by 0.0/0.0. if that result is really dependent on the hardware of the compiler  the spec is wrong  right  and can't actually make that guarantee?  "
+      }
+    ]
+  },
+  {
+    "author": "thkala",
+    "parent": "",
+    "title": "\"JIT not optimizing loop that involves Integer.MAX_VALUE\"",
+    "commentid": "q_76669",
+    "date": "Aug 15, 2014 5:26:56 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.3600000000000001,
+        "sent": " while writing an answer to  another question   i noticed a strange border case for jit optimization.     the following program is  not  a \\\"microbenchmark\\\" and  not  intended to reliably measure an execution time (as pointed out in the answers to the other question). it is solely intended as an  mcve  to reproduce the issue:         it basically runs the same loop     where the limit   is once set to    and once to  .     when executing this on win7/64 with jdk 1.7.0_21 and          the timing results are as follows:         obviously  for the case of    the jit does what one could expect: it detects that the loop is useless  and completely eliminates it. however  it does  not  remove the loop when it is running up to  .     this observation is confirmed by a look at the jit assembly output when starting with          the log contains the following assembly for the method that runs up to  :         one can clearly see the loop  with the comparison to   and the jump back to  . in contrast to that  the assembly for the case where it is running up to  :         so my question is: what is so special about the   that prevents the jit from optimizing it in the same way as it does for  ? my guess would be that has to do with the   instruction  which is intended for  signed  arithmetic  but that alone is not really a convincing reason. can anybody explain this  and maybe even give a pointer to the openjdk hotspot code where this case is treated?    (an aside: i hope that the answer will also explain the different behavior between   and   that was asked for in the other question  assuming that the reason for the missing optimization is (obviously)  actually  caused by the   loop limit)  "
+      }
+    ]
+  },
+  {
+    "author": "ganbustein",
+    "parent": "",
+    "title": "\"Why does =+ not cause a compile error?\"",
+    "commentid": "q_10739",
+    "date": "Dec 8, 2014 8:43:50 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1,
+        "systemtopicid": 1,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": 0.0,
+        "sent": " came across someone mistakenly using    instead of    in their code and it didn't show up as a compile error.    is this because         is the same as         ?  "
+      }
+    ]
+  },
+  {
+    "author": "Sotirios Delimanolis",
+    "parent": "",
+    "title": "\"Is it possible to use multiple view resolvers in Spring?\"",
+    "commentid": "q_83801",
+    "date": "Aug 1, 2014 9:53:06 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": 0.18000000000000016,
+        "sent": " i have multiple view resolvers in my spring configuration and i wanted to use different view resolvers depending on conditions.     example for urls started with  . i wanted to use birt view resolver and for ajax calls use tiles resolver and so on.    i tried setting order property but all views are resolved by tilesviewresolver       "
+      }
+    ]
+  },
+  {
+    "author": "gexicide",
+    "parent": "",
+    "title": "\"Can there be a (Java 7) FileSystem for which a Path .isAbsolute() but has a null root?\"",
+    "commentid": "q_16555",
+    "date": "Nov 29, 2014 5:24:20 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.3640000000000001,
+        "sent": " the javadoc for     says:        tells whether or not this path is absolute.     an absolute path is complete in that it doesn't need to be combined with other path information in order to locate a file.         returns:      if  and only if  this path is absolute      the javadoc for     says:        returns the root component of this path as a path object  or null if this path does not have a root component.         returns:    a path representing the root component of this path  or        ok  so  i am at a loss here; are there any filesystems out there for which a path may be absolute without a root at all?       edit: note that there can be paths which have a root but are not absolute. for instance  these on windows systems:       ;    .      but i am asking for the  reverse  here: no root and absolute.  "
+      }
+    ]
+  },
+  {
+    "author": "Daniel Figueroa",
+    "parent": "",
+    "title": "\"Arrays should not be statically initialized by an array initializer. Why?\"",
+    "commentid": "q_22792",
+    "date": "Nov 19, 2014 4:41:00 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.6680000000000001,
+        "sent": " this is one of the rules from googles static analyser codepro analytix:      summary     arrays should not be statically initialized by an array initializer.     description     this audit rule checks for array variables that are initialized (either in the initializer or in an assignment statement) using an array initializer.     example     the following array declaration would be flagged because of the use of an array initializer:         now  i can disable it if i don't like it  that's not a problem. but i'm wondering why would this be a problem  and what would be the solution to keep that code from being flagged by the audit rule?  "
+      }
+    ]
+  },
+  {
+    "author": "lbalazscs",
+    "parent": "",
+    "title": "Why there is no BooleanConsumer in Java 8?",
+    "commentid": "q_484",
+    "date": "Dec 29, 2014 7:34:48 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.5,
+        "sent": "\" i'm afraid that this is somewhat a silly question.    is there anybody can tell me why there is no   opposite to    ?    is there any reason other than \\\"\"because simply there isn't\\\"\"?    should i create my own one? or am i missing something else?         update    where to use? i'm writing a library that uses much of consumers and suppliers. i successfully wrote a line with   and i encountered a situation that expecting a consumer accepting a boolean value which is from a method result. say  ?   \""
+      }
+    ]
+  },
+  {
+    "author": "Evgeniy Dorofeev",
+    "parent": "",
+    "title": "\"What exactly does the final keyword guarantee regarding concurrency?\"",
+    "commentid": "q_14725",
+    "date": "Dec 2, 2014 9:23:57 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.8240000000000001,
+        "sent": " i think i've read that the final keyword on a field guarantees that if thread 1 instantiates the object containing the field  then thread 2 will always see the initialized value of that field if thread 2 has a reference to the object (provided it was properly constructed). it also says in the jls that         [thread 2] will also see versions of any object or array referenced by   those final fields that are at least as up-to-date as the final fields   are.  (section 17.5 of jls)       that implies that if i have class a         and class b         then anotfinal is not guaranteed to be initialized by the time thread 2 gets a reference to class a  but field bnotfinal is  because b is an object referenced by a final field  as specified in the jls.    do i have this right?    edit:    a scenario where this could happen would be if we have two threads concurrently executing geta() on the same instance of a class c       "
+      }
+    ]
+  },
+  {
+    "author": "user270349",
+    "parent": "",
+    "title": "\"Does a lambda expression create an object on the heap every time it&#39;s executed?\"",
+    "commentid": "q_5815",
+    "date": "Dec 17, 2014 4:20:59 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.5,
+        "sent": " when i iterate over a collection using the new syntactic sugar of java8  such as         isn't this equivalent to the 'old syntax' snippet below?         does this mean a new anonymous   object is created on the heap everytime i iterate over a collection? how much heap space does this take? what performance implications does it have? does it mean i should rather use the old style for loops when iterating over large multi-level data structures?  "
+      }
+    ]
+  },
+  {
+    "author": "edTarik",
+    "parent": "",
+    "title": "\"Why does this Java code with &quot;+ +&quot; compile?\"",
+    "commentid": "q_108605",
+    "date": "Jun 18, 2014 12:12:12 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 3,
+        "systemtopicid": 3,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Servlets",
+        "linePolarity": -0.3999999999999999,
+        "sent": " i'm curious why this simple program could be compiled by java using intellij (java 7).         the output is still 10.  "
+      }
+    ]
+  },
+  {
+    "author": "CommuSoft",
+    "parent": "",
+    "title": "\"Difference between java enum with no values and utility class with private constructor\"",
+    "commentid": "q_36020",
+    "date": "Oct 28, 2014 2:33:52 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.8879999999999999,
+        "sent": " a common thing to do to utility classes is to  give them a private constructor :         but unfortunately  some tools don't like that private constructor. they may warn that it's never called within the class  that it's not covered by tests  that the block doesn't contain a comment  etc.    a lot of those warnings go away if you do this instead:         my question is: besides the unending hatred of future developers  what important differences are there between an enum with no values and a class with a private constructor in java?    note that i am  not  asking  what's the advantage of a java enum versus a class with public static final fields? . i'm not deciding between whether a list of things should be a bunch of constants or an enum  i'm deciding between putting a bunch of functions in a constructor-less class or a value-less enum.    also note that i don't actually want to do this. i just want to know the trade-offs as part of general language knowledge.    for example  using an enum pollutes the autocomplete with useless methods like  . what other downsides are there? upsides?  "
+      }
+    ]
+  },
+  {
+    "author": "jdphenix",
+    "parent": "",
+    "title": "\"C++ and PHP vs C# and Java - unequal results\"",
+    "commentid": "q_76746",
+    "date": "Aug 15, 2014 1:11:18 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": -1.2,
+        "sent": " i found something a little strange in c# and java. let's look at this c++ code:         in a console you will see x = 11 ( look at the result here - ideone c++ ).    now let's look at the same code on c#:         in a console you will see 1 (not 11!) (look at the result here -  ideone c#  i know what you thinking now - \\\"how that is possible?\\\"  but let's go to the following code.    java code:         result the same as in c# (x = 1  look at the result  here ).    and for the last time let's look at the php code:         result is 11 (look at the result  here ).    i have a little theory - these languages (c# and java) are making a local copy of static variable x on the stack (are they ignoring the  static  keyword?). and that is reason why result in those languages is 1.    is somebody here  who have other versions?  "
+      }
+    ]
+  },
+  {
+    "author": "TheLostMind",
+    "parent": "",
+    "title": "\"Does verification of byte code happen twice?\"",
+    "commentid": "q_70250",
+    "date": "Aug 27, 2014 11:04:43 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.3640000000000001,
+        "sent": " so i am a little confused regarding the verification of bytecode that happens inside a jvm. according to the book by  deitel and deitel   a java program goes through five phases (edit  compile  load  verify and execute) (chapter 1). the bytecode verifier verifies the bytecode during the 'verify' stage. nowhere does the book mention that the bytecode verifier is a part of the classloader.    however according to   docs of oracle    the classloader performs the task of loading  linking and initialization  and during the process of linking it has to verify the bytecode.     now  are the bytecode verification that deitel and deitel talks about  and the bytecode verification that   this oracle document   talks about  the same process?    or does bytecode verification happen twice  once during the linking process and the other by the bytecode verifier?    picture describing phases of a java program as mentioned in book by dietel and dietel.(i borrowed this pic from one of the answers below by  nobalg  :) )    "
+      }
+    ]
+  },
+  {
+    "author": "Bathsheba",
+    "parent": "",
+    "title": "\"Java classes and static blocks\"",
+    "commentid": "q_89682",
+    "date": "Jul 22, 2014 11:56:20 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.5,
+        "sent": "      on running above code the output comes as 100 because when i called hello class  static block is executed first setting the value of b to 100 and displaying it. but when i write this code:         here the output comes as 10. i am expecting answer as 100 because once the static block is executed it gave b the value as 100. so when in main()  i called  hello.b  it should have referred to b (=100). how is the memory allocated to b in both the codes?  "
+      }
+    ]
+  },
+  {
+    "author": "Pier-Alexandre Bouchard",
+    "parent": "",
+    "title": "\"One plus plus two compiles unexpectedly\"",
+    "commentid": "q_2704",
+    "date": "Dec 23, 2014 10:34:56 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": 0.0,
+        "sent": " so  i expect this not to compile  and it doesn't:         but this does:         what gives? shouldn't it also not compile?    also  this question is very hard to search for because of the operators..  "
+      }
+    ]
+  },
+  {
+    "author": "FrobberOfBits",
+    "parent": "",
+    "title": "\"Why is the diamond case with its common ancestor used to explain Java multiple inheritance issue  instead of two unrelated parent classes?\"",
+    "commentid": "q_45247",
+    "date": "Oct 13, 2014 4:45:49 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -1.076,
+        "sent": " this question might sound weird to java people but if you try to explain this  it would be great.    in these days i am clearing some of java's very basic concept.  so i come to inheritance and interface topic of java.     while reading this i found that java does not support multiple inheritance and also understood that  what i am not able to understand that why everywhere diamond figure issue(at least 4 class to create diamond) is discussed to explain this behavior  can't we understand this issue using 3 classes only.    say  i have class a and class b  these two classes are different (they are not child class of common class) but they have one common method and they look like :-         ok now say if java supports multiple inheritance and if there is one class which is the subclass of a and b like this :-         then compiler will not be able to find which method to call whether from a or b and that is why java does not support multiple inheritance. so is there any thing wrong with this concept ?     when i read about this topic i was able to understand diamond issue  but i am not able to understand why people are not giving example with three class (if this is valid one  because we used only 3 classes to demonstrate issue so its easy to understand by comparing it to diamond issue.)    let me know whether this example does not fit to explain issue or this can also be  referred to understand issue.      edit:  i got one close vote here stating that question is not clear.  here is main question :-    can i understand why \\\"java does not support multiple inheritance\\\" with 3 classes only as described above or i must need to have 4 classes (diamond structure) to understand the issue.  "
+      }
+    ]
+  },
+  {
+    "author": "Teddy",
+    "parent": "",
+    "title": "\"Why doesn&#39;t Java have true multidimensional arrays?\"",
+    "commentid": "q_46009",
+    "date": "Oct 11, 2014 12:17:52 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.9040000000000001,
+        "sent": " the tl;dr version  for those who don't want the background  is the following specific question:    question        why doesn't java have an implementation of true multidimensional arrays? is there a solid technical reason? what am i missing here?      background    java has multidimensional arrays at the syntax level  in that one can declare         but it seems that this is really not what one might have expected. rather than having the jvm allocate a contiguous block of ram big enough to store 100  s  it comes out as an array of arrays of  s: so each layer is a contiguous block of ram  but the thing as a whole is not. accessing   is thus rather slow: the jvm has to      find the   stored at  ;   index this to find the   stored at  .      this involves querying an object to go from one layer to the next  which is rather expensive.    why java does this    at one level  it's not hard to see why this can't be optimised to a simple scale-and-add lookup even if it were all allocated in one fixed block. the problem is that   is a reference all of its own  and it can be changed. so although arrays are of fixed size  we could easily write         and now the scale-and-add is screwed because this layer has grown. you'd need to know at runtime whether everything is still the same size as it used to be. in addition  of course  this will then get allocated somewhere else in ram (it'll have to be  since it's bigger than what it's replacing)  so it's not even in the right place for scale-and-add.    what's problematic about it    it seems to me that this is not ideal  and that for two reasons.    for one  it's  slow . a test i ran with these methods for summing the contents of a single dimensional or multidimensional array took  nearly twice as long  (714 seconds vs 371 seconds) for the multidimensional case (an   and an   respectively  filled with random   values  run 1000000 times with warm cache).         secondly  because it's slow  it thereby  encourages obscure coding . if you encounter something performance-critical that would be naturally done with a multidimensional array  you have an incentive to write it as a flat array  even if that makes the unnatural and hard to read. you're left with an unpalatable choice: obscure code or slow code.    what could be done about it    it seems to me that the basic problem could easily enough be fixed. the only reason  as we saw earlier  that it can't be optimised is that the structure might change. but java already has a mechanism for making references unchangeable: declare them as  .    now  just declaring it with         isn't good enough because it's only   that is   here:   still isn't  and could be changed  so the structure might still change. but if we had a way of declaring things so that it was   throughout  except at the bottom layer where the   values are stored  then we'd have an entire immutable structure  and it could all be allocated as one block  and indexed with scale-and-add.    how it would look syntactically  i'm not sure (i'm not a language designer). maybe         although admittedly that looks a bit weird. this would mean:   at the top layer;   at the next layer; not   at the bottom layer (else the   values themselves would be immutable).    finality throughout would enable the jit compiler to optimise this to give performance to that of a single dimensional array  which would then take away the temptation to code that way just to get round the slowness of multidimensional arrays.    (i hear a rumour that c# does something like this  although i also hear another rumour that the clr implementation is so bad that it's not worth having... perhaps they're just rumours...)    question        so why doesn't java have an implementation of true multidimensional arrays? is there a solid technical reason? what am i missing here?      update    a bizarre side note: the difference in timings drops away to only a few percent if you use an   for the running total rather than a  . why would there be such a small difference with an    and such a big difference with a  ?    benchmarking code    code i used for benchmarking  in case anyone wants to try to reproduce these results:       "
+      }
+    ]
+  },
+  {
+    "author": "durron597",
+    "parent": "",
+    "title": "\"How is ArrayOutOfBoundsException possible in String.valueOf(int)?\"",
+    "commentid": "q_57718",
+    "date": "Sep 19, 2014 1:35:15 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -1.06,
+        "sent": " why does this code sometimes produce arrayoutofboundsexception? how is that even possible for  ?          updates     i don't know the value of the byte when this occurs  but it doesn't seem like it should be possible for any possible value of byte.    once it happens once  every invocation then errors out with the same exception.    environment:           "
+      }
+    ]
+  },
+  {
+    "author": "dkatzel",
+    "parent": "",
+    "title": "\"Should I return a Collection or a Stream?\"",
+    "commentid": "q_96424",
+    "date": "Jul 10, 2014 5:42:48 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -1.2959999999999998,
+        "sent": " suppose i have a method that returns a read-only view into a member list:         further suppose that all the client does is iterate over the list once  immediately. maybe to put the players into a jlist or something. the client does  not  store a reference to the list for later inspection!    given this common scenario  should i return a stream instead?         or is returning a stream non-idiomatic in java? were streams designed to always be \\\"terminated\\\" inside the same expression they were created in?  "
+      }
+    ]
+  },
+  {
+    "author": "Mikhail",
+    "parent": "",
+    "title": "\"Why do fields seem to be initialized before constructor?\"",
+    "commentid": "q_9872",
+    "date": "Dec 9, 2014 11:55:45 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.6680000000000001,
+        "sent": "      the output is      from this result  it seems that the initialization of   is before the completion of   member and its instantiating.       why is this order like this?  "
+      }
+    ]
+  },
+  {
+    "author": "Avi",
+    "parent": "",
+    "title": "\"Why NullPointerException?\"",
+    "commentid": "q_29154",
+    "date": "Nov 9, 2014 3:35:50 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.956,
+        "sent": " i have a abstract class and a derived class. look at provided code:-         when i will execute the above code it will throw nullpointerexception on printing the value of mtitle. if you check the code in constructor of parent i have called the the abstract method which will called the init method of derived class  in abstract method i have initialize the value of mtitle value as =\\\"it's a test\\\";    after calling parent constructor derived class have to call the system.out.println.    if it is doing in that way then why it is throwing nullpointerexception.    but  if i just leave the assignment of mtitle it will not throw exception like:-         if initialization of variable occur on calling of the contruct of class and we know by default global object have initialize to null. but in this case it will not throw exception.  "
+      }
+    ]
+  },
+  {
+    "author": "Stuart Marks",
+    "parent": "",
+    "title": "\"Is there a type inference regression in JDK 8 update 20?\"",
+    "commentid": "q_71826",
+    "date": "Aug 25, 2014 9:45:18 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.17999999999999994,
+        "sent": " i have a problem with the following code:         with jdk 8 until update 11  this code compile. with jdk 8 update 20  it does not compile anymore. in the last statement  i have to explicitly specify the   type argument for the last   instantiation.    i was wondering if i am wrong with this code or if it is a regression in the last jdk update.  "
+      }
+    ]
+  },
+  {
+    "author": "Sibi",
+    "parent": "",
+    "title": "\"What kinds of type errors can Haskell catch at compile time that Java cannot?\"",
+    "commentid": "q_75230",
+    "date": "Aug 18, 2014 6:22:12 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.2519999999999998,
+        "sent": " i'm just starting to learn haskell and keep seeing references to its powerful type system. i see many instances in which the inference is much more powerful than javas  but also the implication that it can catch more errors at compile time because of its superior type system. so  i'm wondering if it would be possible to explain what types of errors haskell can catch at compile time that java cannot.  "
+      }
+    ]
+  },
+  {
+    "author": "Matthias Braun",
+    "parent": "",
+    "title": "\"After upgrading to Gradle 2.0: Could not find property &#39;Compile&#39; on root project\"",
+    "commentid": "q_96699",
+    "date": "Jul 9, 2014 9:54:47 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": 0.28400000000000025,
+        "sent": " to avoid warnings regarding special characters when building my java source code  i put this line in my   which worked fine before upgrading to gradle 2.0:         after upgrading  this fails with the following error:         how can i fix that?  "
+      }
+    ]
+  },
+  {
+    "author": "Stephen C",
+    "parent": "",
+    "title": "\"What is an operand stack?\"",
+    "commentid": "q_104060",
+    "date": "Jun 26, 2014 2:35:07 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.544,
+        "sent": " i am reading about jvm architecture. today i read about the concept of the operand stack. according to an article:        the operand stack is used during the execution of byte code instructions   in a similar way that general-purpose registers are used in a native cpu.      i can't understand: what exactly is an operand stack  and how does it work in jvm?  "
+      }
+    ]
+  },
+  {
+    "author": "MikeFHay",
+    "parent": "",
+    "title": "\"Alternative to successive String.replace\"",
+    "commentid": "q_32217",
+    "date": "Nov 4, 2014 5:34:08 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.6680000000000001,
+        "sent": " i want to replace some strings in a string input :         as you can see this approach is not the best  because each time i have to search for the portion to replace etc  and strings are immutable... also the input is large  which means that some performance issues are to be considered.    is there any better approach to reduce the complexity of this code ?   "
+      }
+    ]
+  },
+  {
+    "author": "Holger",
+    "parent": "",
+    "title": "\"Synchronizing on local variable\"",
+    "commentid": "q_40674",
+    "date": "Oct 21, 2014 1:28:43 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10,
+        "systemtopicid": 10,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": -1.0,
+        "sent": " i noticed a weird construct in   's   and   methods :         what is the point of synchronizing on a local object considering that the jit will most likely treat it as a no-op?  "
+      }
+    ]
+  },
+  {
+    "author": "Claas Wilke",
+    "parent": "",
+    "title": "\"Should java 8 getters return optional type?\"",
+    "commentid": "q_45648",
+    "date": "Oct 12, 2014 10:30:18 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.8559999999999999,
+        "sent": " optional type introduced in java 8 is a new thing for many developers.    is a getter method returning   type in place of the classic   a good practice? assume that the value can be  .  "
+      }
+    ]
+  },
+  {
+    "author": "Damian Leszczy\u0144ski - Vash",
+    "parent": "",
+    "title": "\"Java ternary operator influence on generics type inference\"",
+    "commentid": "q_108253",
+    "date": "Jun 18, 2014 8:19:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.33199999999999985,
+        "sent": "      why does   compiles fine whereas   has an error? (to be more precise  \\\"type mismatch: cannot convert from list&lt;capture#1-of ? extends object&gt; to list&lt;string&gt;\\\" )    i would have thought that both functions would compile to the same bytecode  so a clever compiler should infer the correct type for  ...  "
+      }
+    ]
+  },
+  {
+    "author": "dasblinkenlight",
+    "parent": "",
+    "title": "\"Declaring variable final and static\"",
+    "commentid": "q_48420",
+    "date": "Oct 7, 2014 10:31:26 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.1519999999999999,
+        "sent": " this comment was made in a code review and the person who made it is no longer on our team.          any type that must be resolved by the classloader at runtime should never have instances which are held by references declared to be both final and static.      here's the line of code:         i'm familiar with the debate of declaring loggers static or non-static  but this comment seems to be more general.  i can't find any explanations of why static and final are bad.  can somebody elaborate?  "
+      }
+    ]
+  },
+  {
+    "author": "mkrakhin",
+    "parent": "",
+    "title": "\"How to compile and run my Maven unit tests for Java 8  while having my code compiled for Java 7\"",
+    "commentid": "q_107221",
+    "date": "Jun 20, 2014 1:38:33 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.8240000000000001,
+        "sent": " i want to use java 8 syntax in my unit tests. but my 'main' code must be compiled for java 7 since my production environment only has jdk 7 installed.    is there a way of doing this with the maven-compiler-plugin ? my jenkins server has java 8 installed.    i will accept the risk that i can accidental use java 8 specific functionality in my production code.  "
+      }
+    ]
+  },
+  {
+    "author": "Mikhail",
+    "parent": "",
+    "title": "\"Why aren&#39;t method references singleton?\"",
+    "commentid": "q_2978",
+    "date": "Dec 23, 2014 1:17:37 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 6,
+        "systemtopicid": 6,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "JSON",
+        "linePolarity": -0.544,
+        "sent": " in java  the following code returns false on both queries. why? wouldn't it be simpler for method references to be singleton? it would certainly make attaching and detaching listeners a lot simpler. as it is you need to keep a constant for any method reference that will need to be equivalence checked  you can't just use the method reference operator at every necessary location.       "
+      }
+    ]
+  },
+  {
+    "author": "Alexey Malev",
+    "parent": "",
+    "title": "\"Behavior of memory barrier in Java\"",
+    "commentid": "q_102792",
+    "date": "Jun 28, 2014 9:58:31 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.6680000000000001,
+        "sent": " after reading more blogs/articles etc  i am now really confused about the behavior of load/store before/after memory barrier.    following are 2 quotes from doug lea in one of his clarification article about jmm  which are both very straighforward:       anything that was visible to thread a when it writes to volatile field f becomes visible to thread b when it reads f.     note that it is important for both threads to access the same volatile variable in order to properly set up the happens-before relationship. it is not the case that everything visible to thread a when it writes volatile field f becomes visible to thread b after it reads volatile field g.       but then when i looked into another  blog  about memory barrier  i got these:       a store barrier  ?sfence? instruction on x86  forces all store instructions prior to the barrier to happen before the barrier and have the store buffers flushed to cache for the cpu on which it is issued.     a load barrier  ?lfence? instruction on x86  forces all load instructions after the barrier to happen after the barrier and then wait on the load buffer to drain for that cpu.       to me  doug lea's clarification is more strict than the other one: basically  it means if the load barrier and store barrier are on different monitors  the data consistency will not be guaranteed. but the later one means even if the barriers are on different monitors  the data consistency will be guaranteed. i am not sure if i understanding these 2 correctly and also i am not sure which of them is correct.    considering the following codes:         let's say we have 1 write thread tw1 first call the memorybarrier's write() method  then we have 2 reader threads tr1 and tr2 call memorybarrier's read1() and read2() method.consider this program run on cpu which does not preserve ordering (x86 do preserve ordering for such cases which is not the case)  according to memory model  there will be a storestore barrier (let's say sb1) between w01/w02  as well as 2 loadload barrier between r11/r12 and r21/r22 (let's say rb1 and rb2).      since sb1 and rb1 are on same monitor  i   so thread tr1 which calls  read1  should always see 14 on x  also \\\"foo\\\" is always printed.   sb1 and rb2 are on different monitors  if doug lea is correct  thread tr2 will not be guaranteed to see 14 on x  which means \\\"bar\\\" may be printed occasionally. but if memory barrier runs like martin thompson described in the  blog   the store barrier will push all data to main memory and load barrier will pull all data from main memory to cache/buffer  then tr2 will also be guaranteed to see 14 on x.      i am not sure which one is correct  or both of them are but what martin thompson described is just for x86 architecture. jmm does not guarantee change to x is visible to tr2 but x86 implementation does.    thanks~  "
+      }
+    ]
+  },
+  {
+    "author": "meriton",
+    "parent": "",
+    "title": "\"How does the JVM internally handle race conditions?\"",
+    "commentid": "q_16884",
+    "date": "Nov 28, 2014 9:27:05 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -1.0,
+        "sent": " if multiple threads try to update the same member variable  it is called a race condition. but i was more interested in knowing how the jvm handles it internally if we don't handle it in our code by making it synchronised or something else? will it hang my program? how will the jvm react to it? i thought the jvm would temporarily create a sync block for this situation  but i'm not sure what exactly would be happening.     if any of you have some insight  it would be good to know.  "
+      }
+    ]
+  },
+  {
+    "author": "bcsb1001",
+    "parent": "",
+    "title": "\"Sorting a List in parallel without creating a temporary array in Java 8\"",
+    "commentid": "q_57141",
+    "date": "Sep 21, 2014 8:55:57 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 8,
+        "systemtopicid": 8,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Database",
+        "linePolarity": -0.964,
+        "sent": " java 8 provides      which sorts arrays in parallel using the fork-join framework.  but there's no corresponding   for sorting lists.    i can use    sort that array  and store the result back in my list  but that will temporarily increase memory usage  which if i'm using parallel sorting is already high because parallel sorting only pays off for huge lists.  instead of twice the memory (the list plus parallelsort's working memory)  i'm using thrice (the list  the temporary array and parallelsort's working memory).  (arrays.parallelsort documentation says \\\"the algorithm requires a working space no greater than the size of the original array\\\".)    memory usage aside  collections.parallelsort would also be more convenient for what seems like a reasonably common operation.  (i tend not to use arrays directly  so i'd certainly use it more often than arrays.parallelsort.)    the library can test for  randomaccess  to avoid trying to e.g. quicksort a linked list  so that can't a reason for a deliberate omission.     how can i sort a list in parallel without creating a temporary array?   "
+      }
+    ]
+  },
+  {
+    "author": "Maroun Maroun",
+    "parent": "",
+    "title": "\"Java overloading with variable length arguments\"",
+    "commentid": "q_6992",
+    "date": "Dec 15, 2014 4:50:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.0,
+        "sent": " why is there no compile error in this code:         yet this code gives compile error?         i believe there should be compile error in both the cases  but this is not so.  "
+      }
+    ]
+  },
+  {
+    "author": "Peter",
+    "parent": "",
+    "title": "\"Difference between calling a class constructor and using Class.forName().newInstance\"",
+    "commentid": "q_56936",
+    "date": "Sep 21, 2014 10:52:55 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": -0.6680000000000001,
+        "sent": " i have been trying to understand the difference between using   to instantiate an object vs using  .    i have run the following code for a simple class   which shows using   is 70-100 times slower than using just  .    i am curious to know why there is such a difference in time  but couldn't figure out. please someone help me to understand the reason.       "
+      }
+    ]
+  },
+  {
+    "author": "OO7",
+    "parent": "",
+    "title": "\"Differences between Java 8 Date Time API (java.time) and Joda-Time\"",
+    "commentid": "q_97835",
+    "date": "Jul 8, 2014 5:28:57 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 3,
+        "systemtopicid": 3,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Servlets",
+        "linePolarity": -0.28400000000000003,
+        "sent": " i know there are questions relating to  java.util.date  and joda-time. but after some digging  i couldn't find a thread about the differences between the  java.time api  (new in  java 8   defined by  jsr 310 ) and  joda-time .    i have heard that java 8?s java.time api is much cleaner and can do much more than joda-time. but i cannot find examples comparing the two.       what can java.time do that joda-time cannot?    what can java.time do better than joda-time?    is the performance better with java.time?    "
+      }
+    ]
+  },
+  {
+    "author": "Jeffrey Bosboom",
+    "parent": "",
+    "title": "\"Why does Collection.parallelStream() exist when .stream().parallel() does the same thing?\"",
+    "commentid": "q_98732",
+    "date": "Jul 6, 2014 9:44:20 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.8559999999999999,
+        "sent": " in java 8  the collection interface was extended with two methods that return  :    which returns a sequential stream  and    which returns a possibly-parallel stream.  stream itself also has a   method that returns an equivalent parallel stream (either mutating the current stream to be parallel or creating a new stream).    the duplication has obvious disadvantages:       it's confusing.  a question asks  whether calling both parallelstream().parallel() is necessary to be sure the stream is parallel   given that parallelstream() may return a sequential stream.  why does parallelstream() exist if it can't make a guarantee?  the other way around is also confusing -- if parallelstream() returns a sequential stream  there's probably a reason (e.g.  an inherently sequential data structure for which parallel streams are a performance trap); what should stream.parallel() do for such a stream?  (unsupportedoperationexception is not allowed by parallel()'s specification.)     adding methods to an interface risks conflicts if an existing implementation has a similarly-named method with an incompatible return type.  adding parallelstream() in addition to stream() doubles the risk for little gain.  (note that parallelstream() was at one point just named parallel()  though i don't know if it was renamed to avoid name clashes or for another reason.)       why does collection.parallelstream() exist when calling collection.stream().parallel() does the same thing?  "
+      }
+    ]
+  },
+  {
+    "author": "Boris the Spider",
+    "parent": "",
+    "title": "\"Generics  Type Parameters and Wildcards\"",
+    "commentid": "q_7590",
+    "date": "Dec 13, 2014 6:10:12 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -1.0,
+        "sent": " i am trying to understand java generics and they seem extremely difficult to understand. for example  this is fine...           ... as is this...         ... and this ...         ... but this doesn't compile:         can someone explain what is going on in simple language?   "
+      }
+    ]
+  },
+  {
+    "author": "Elliott Frisch",
+    "parent": "",
+    "title": "\"Why is writing data to disk as fast as keeping it in-memory?\"",
+    "commentid": "q_84934",
+    "date": "Jul 30, 2014 11:36:29 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 8,
+        "systemtopicid": 8,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Database",
+        "linePolarity": 1.0,
+        "sent": " i have the following 10000000x2 matrix:         now i want to save this matrix to   array:         the output:         now i want to save this matrix to disk:         the output:         shouldn't be saving to memory much faster?  "
+      }
+    ]
+  },
+  {
+    "author": "Alex",
+    "parent": "",
+    "title": "\"Why can enum implementations not access private fields in the enum class\"",
+    "commentid": "q_86173",
+    "date": "Jul 29, 2014 1:25:09 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.8240000000000001,
+        "sent": " i just answered this question by saying how to solve the compilation problem:     how to use fields in java enum by overriding the method?     but what i don't understand is why the error is happening in the first place.    here is the example written as an enum:         here is the exact same thing as abstract classes         in the case of   within the   implementation it cannot access  . however in the abstract class case it can.    additionally adding   fixes the problem  as does removing the   modifier on the field.    does anyone know why this slight quirk in the behaviour is happening?  "
+      }
+    ]
+  },
+  {
+    "author": "gontard",
+    "parent": "",
+    "title": "\"Do default constructors for private inner classes have a formal parameter?\"",
+    "commentid": "q_89647",
+    "date": "Jul 22, 2014 1:04:22 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.3999999999999999,
+        "sent": " caveat #1: this is actually a potential two-parter: first  does the constructor for a private inner class have a formal parameter? if yes  why does the jls say it doesn't? and if no  how/why not?    caveat #2:  this question is not for speculation.  i'm looking for  authoritative  answers only.    default constructors are defined in  jls 8.8.9   which states (in part):        the default constructor has no formal parameters  except in a  non-private  inner member class  where the default constructor implicitly declares one formal parameter representing the immediately enclosing instance of the class (?8.8.1  ?15.9.2  ?15.9.3).       (emphasis added)     the \\\"non-private\\\" bit seems odd to me: in order for an inner class to access fields defined in its enclosing class  it needs a reference to that instance. this should be the same regardless of whether the inner class is private.    in fact  javac seems to agree with me  in contradiction to the spec. if i compile this:         ...and run    then we see a constructor with a single formal parameter  for the instance of the enclosing class:         for reference  this is on oracle jdk 1.8.0_05.    so the jls says that the default constructor for private inner member classes has no formal parameters  but javac/javap say it has one. (my understanding of the most natural way for things to work would also say it should have one  for the little that's worth.) which is right  and why does the jls specifically exclude private inner classes?  "
+      }
+    ]
+  },
+  {
+    "author": "Jon Skeet",
+    "parent": "",
+    "title": "\"Why is this Float constant null when executing the static block?\"",
+    "commentid": "q_110879",
+    "date": "Jun 13, 2014 3:14:17 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 3,
+        "systemtopicid": 3,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Servlets",
+        "linePolarity": 0.6680000000000001,
+        "sent": " the following code  when executed  prints   instead of the expected  . why isn't   initialized before executing the static block?       "
+      }
+    ]
+  },
+  {
+    "author": "assylias",
+    "parent": "",
+    "title": "\"Java8 Iterator to Stream\"",
+    "commentid": "q_101507",
+    "date": "Jul 1, 2014 6:05:15 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": 0.0,
+        "sent": " i am looking for a concise way to convert an     to a     or more specifically to \\\"view\\\" the   as a  .    for performance reason  i would like to avoid a copy of the iterator in a new list:            based on the some suggestions in the comments  i have also tried to use    :         but i get a   (since there is no invocation of  )         i have looked at     and     but i didn't find anything.  "
+      }
+    ]
+  },
+  {
+    "author": "Serge Ballesta",
+    "parent": "",
+    "title": "\"Why can&#39;t we set the value of static final variable in static block through class name\"",
+    "commentid": "q_6370",
+    "date": "Dec 16, 2014 6:43:55 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10,
+        "systemtopicid": 10,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": 0.0,
+        "sent": " for example  consider code snap below:         why can't we use   inside a static block of the   class itself? without the class name it's working fine.    is there any reason behind this?  "
+      }
+    ]
+  },
+  {
+    "author": "Sotirios Delimanolis",
+    "parent": "",
+    "title": "\"Why can&#39;t I use from the static method of the implemented interface?\"",
+    "commentid": "q_7376",
+    "date": "Dec 14, 2014 9:22:12 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.28400000000000025,
+        "sent": " as you  specialists  know in java 8  interfaces can have static methods which have implementations inside themselves.    as i have read in a related tutorial  the classes which implement such interface can use its static methods. but  i have a problem which  here  i show it in a simpler example than what i have         when i implement such interface         i encounter compile error.         what's the problem?  "
+      }
+    ]
+  },
+  {
+    "author": "eckig",
+    "parent": "",
+    "title": "\"ObservableList: how to reliably detect a setAll?\"",
+    "commentid": "q_23509",
+    "date": "Nov 18, 2014 5:55:16 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -1.3159999999999998,
+        "sent": " in some contexts it's necessary to detect - in a listchangelistener  without control about the list itself - a \\\"all data swapped out\\\"  f.i. when we need to clear some state like selection - on completely new data the old state is meaningless.     completely new data can be reached by      list.setall(...)   list.set(otherobservablelist)  if list is a listproperty      thinking about which type of changes could be fired on setall (c is the change  items is the observed list  \\\"subchangecount\\\" pseudo-code for counting the subchanges):         this seems to allow a utility check like:         in contrast  internal fx code  f.i. in listening to combobox' items:            stores the old itemcount and compare that against the current removedsize (which i'm uncomfortable with  old state gets stale far too often for my taste)  nevertheless there's a good probability that i'm missing something with my approach.    question is:    in which context would my utility method fail (and core approach would detect the setall correctly)?  "
+      }
+    ]
+  },
+  {
+    "author": "Jukka K. Korpela",
+    "parent": "",
+    "title": "\"Which subset of Unicode symbols should I use to mark special substrings in text?\"",
+    "commentid": "q_76162",
+    "date": "Aug 16, 2014 12:41:30 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.33199999999999985,
+        "sent": " our application sends   which then shall be localized on  . sometimes those are    sometimes only    so we have to mark them. it would be the best if it only used unicode as it wouldn't require any protocol changes.     example:          where 10 is length in cm but it should be converted so it is displayed as inches or mm.  are unicode special characters   right choice for marking such special substrings in text?  "
+      }
+    ]
+  },
+  {
+    "author": "Aniket Thakur",
+    "parent": "",
+    "title": "\"Why does java.util.concurrent.RunnableFuture have a run() method?\"",
+    "commentid": "q_83768",
+    "date": "Aug 2, 2014 12:32:00 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 8,
+        "systemtopicid": 8,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Database",
+        "linePolarity": 0.6680000000000001,
+        "sent": " as i was going through jdk 7  i found that   has a run method. i wonder what the significance of duplicating the same run method signature in the interface is when it already extends  .       "
+      }
+    ]
+  },
+  {
+    "author": "niculare",
+    "parent": "",
+    "title": "\"Comparing two maps\"",
+    "commentid": "q_92136",
+    "date": "Jul 17, 2014 3:29:32 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": -0.28400000000000003,
+        "sent": " this might be a dumb question but i couldn't find if what i was thinking is right or wrong. i have two maps   and the   here could basically be another   which goes on deeper. now i want to check if two maps are exactly the same without knowing the depth of them. so  instead of using recursion (which i hate) can i just to   on both and check if the strings are the same? or is there a better/simpler way of comparing the maps?  "
+      }
+    ]
+  },
+  {
+    "author": "Stuart Marks",
+    "parent": "",
+    "title": "\"How to debug stream().map(...) with lambda expressions?\"",
+    "commentid": "q_100582",
+    "date": "Jul 2, 2014 3:02:59 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": -0.748,
+        "sent": " in our project we are migrating to java 8 and we are testing the new features of it.    on my project i'm using guava predicates and functions to filter and transform some collections using   and  .     on this migration i need to change for example guava code to java 8 changes. so  the changes i'm doing are the kind of:         to...         using guava i was very confortable debugging the code since i could debug each transformation process but my concern is how to debug for example  .    using the debugger i can see some code like:         but it isn't as straighforward as guava to debug the code  actually i couldn't find the   transformation.    is there a way to see this transformation or a way to easy debug this code?     edit: i've added answer from different comments and posted answers     thanks to   comment that answered my question  the approach of having lambda block allowed me to see the transformation process and debug what happened inside lambda body:         thanks to   the approach of having method references also allowed me to debug the transformation process:         thanks to   answer i noticed that my eclipse doesn't show what it should and the usage of peek() helped to display results.   "
+      }
+    ]
+  },
+  {
+    "author": "Holger",
+    "parent": "",
+    "title": "\"Lambdas and functional interfaces with generic throw clauses\"",
+    "commentid": "q_110995",
+    "date": "Jun 12, 2014 11:39:34 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.33199999999999985,
+        "sent": " consider this snippet of java 8 code:         the lambda at the call to   compiles fine  whereas the lambda at the call to   does not compile  but rather gives this compile error:         why is this?    it seems to me that both the   and   methods are equivalent: by the rules of type erasure    becomes   as it is unbounded  and   becomes    as that's the upper type bound. so why does the compiler think the overridden method does not throw java.lang.exception?    even disregarding type erasure  which is likely not relevant here because this is all happening at compile time  it still does not make sense to me: i don't see a reason why this pattern  if allowed  would result in  say  unsound java code.    so can someone enlighten me as to why this isn't allowed?     update:     so i found something that's maybe even more interesting. take the above file  change each occurrence of   to   and add throws clause to  . compile works! change back to  : compile breaks!    this compiles fine:         at this point it's starting to look more and more like a java bug...  "
+      }
+    ]
+  },
+  {
+    "author": "Saher Ahwal",
+    "parent": "",
+    "title": "Related to String interning",
+    "commentid": "q_399",
+    "date": "Dec 30, 2014 12:38:18 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": 2.0,
+        "sent": "      this results in          the expression   is true implies same reference. so why the last expression is true but the 4th to last ie   is false?  "
+      }
+    ]
+  },
+  {
+    "author": "assylias",
+    "parent": "",
+    "title": "\"Why can&#39;t I use generics in an inner interface?\"",
+    "commentid": "q_4964",
+    "date": "Dec 18, 2014 11:03:55 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.6680000000000001,
+        "sent": " i tried to compile the following code:         but i get this error: \\\"foo.this cannot be referenced from a static context.\\\"    specifically  i get it on the \\\"t\\\" in bar(t t). however foo(t t) does not produce the same error. i don't understand why that's a static context and what the error really means.   "
+      }
+    ]
+  },
+  {
+    "author": "Maroun Maroun",
+    "parent": "",
+    "title": "\"try{} finally{} construct with return values\"",
+    "commentid": "q_5727",
+    "date": "Dec 17, 2014 6:59:45 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.6680000000000001,
+        "sent": " i was wondering why the following code would be accepted by the java compiler:         this can and should not work. the java specification states the   block will  always  be executed  but at the same time the return value has already been specified. so either you cannot execute the   statement  because you have exited at    which would be incorrect.    however  the other option is that you execute the   statement  and thereby totally disregarding the   statement...    i would say that both are wrong  and i would expect that this does not compile. however it compiles and runs fine. i will leave the answer as a nice exercise to the reader ;).     basically my question is:  besides being bad practice  would this be considered a java bug  or does this have other wonderful uses other than obfuscation?     edit:    the question is not so much if it is a bug  that has been answered  but does it have nice use cases?  "
+      }
+    ]
+  },
+  {
+    "author": "aurelius",
+    "parent": "",
+    "title": "\"Synch and Asynchronous interface of MqttClient object are not working\"",
+    "commentid": "q_17091",
+    "date": "Nov 28, 2014 2:31:26 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.6240000000000001,
+        "sent": " i have created a   of type   and as shown below in the code  i create a client and se its  . the problem is      1-when i run the programm  the   appears  but i receive no response fr0m the   or from o   why? wha i am doing wrong in the code.    2-i implemented the   interface  but since i have a client of type    i can not use this   interface. i tried to use   but because i program for java and not for   i can not use it. how to use   interface.?     update_1     in the below code \\\"updated_code_1\\\"  i slightly modified the code  but i expect every time i connect successfully to the   the message in   synchronous callback to be printed  and the message in   synchronous callbck to be printed in case of the onnection terminated such as when i intentionally disconnect the network. but at ru time when i connect to the    neither   nor   dispays any thing. so  what are they designed for?     *update_2_17_dec_2014     i have an inquiry that might lead us to a solution  which is  does it matter if i am connecting to the broker through wired/wire-less network? would that change the behaviour of he synchronous and asynchronous listener?     updated_1_code :          newclient :          asynch callback :       "
+      }
+    ]
+  },
+  {
+    "author": "Yazan",
+    "parent": "",
+    "title": "\"Prevent Android phone from connecting to WiFi network unless my app approves it?\"",
+    "commentid": "q_33826",
+    "date": "Nov 1, 2014 12:44:38 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -1.124,
+        "sent": " i want to develop an app that can prevent connection to a wifi network unless i approve it. i want to be able to query the mac address of the access point and compare that to a list of known addresses corresponding to ssids. the goal of the app is to protect users from accidentally connecting to malicious access points  such as the types that can be produced with  pineapple devices .    i'm not clear from my research how i would achieve this goal. questions such as  how to be notified on wifi network status change?  explain how to detect the connection  has happened   but for my use case that's already too late.    neither    nor   seem to offer methods for adding listeners that could interrupt a connection in progress.    some thoughts i've had for a solution:       install myself as a proxy and make the decision as to whether to allow data through. however  this doesn't seem to be an option based on  do android proxy settings apply to all apps on the device?  (hint: the answer is \\\"no\\\").     replace the existing wifi manager with something of my own creation. however  i've really struggled to find any information in the android developer guides regarding replacing system components. consequently  i'm not sure this is possible on non-rooted phones.      store the network passwords within my app and set the passwords in the wifi manager to nonsense values. then capture a broadcast message that warns of a failed connection (presumably something like  ) and selectively decide to reconnect back to that network. might be a possible (if ugly) solution  but can i set the password back to a nonsense value while the network is still connected  to ensure we don't quietly connect to another ssid of the same name? i'm not sure . it occurs to me that pineapple devices would probably accept any password  thus rendering this approach void.     find some way to prevent android automatically connecting to known networks (i.e. networks that have been used before or have a password stored with them). then i could manage all connections/disconnections from my app. i can't see how to do this manually on my phone  however  so i'm doubtful this is possible programmatically.       can anyone suggest an approach that would work on a non-rooted phone?  "
+      }
+    ]
+  },
+  {
+    "author": "Mureinik",
+    "parent": "",
+    "title": "\"Java syntax - extra plus sign after cast is valid?\"",
+    "commentid": "q_47296",
+    "date": "Oct 9, 2014 4:34:00 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": 0.0,
+        "sent": " so i came across something that confused me when casting a   to    usually i would do this:         which will print out         i accidentally left a   between the   and   and got the  same  result!?    like so:          why exactly is this happening?     am i essentially doing this:    because changing the   to a    like so:   yields a different result.    note: using java version 1.8.0_20   "
+      }
+    ]
+  },
+  {
+    "author": "NoDataFound",
+    "parent": "",
+    "title": "\"Java 8 functional interface ambiguous reference (is this a bug?)\"",
+    "commentid": "q_66889",
+    "date": "Sep 3, 2014 1:37:39 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.9319999999999999,
+        "sent": " i have two functions similar to these ones:         to me it is obvious that they cannot(!) clash and that calls cannot be ambiguous. however  with the most recent version of java 8  the following call fails:         with      while         and         work.    is this a bug in the compiler (or should this fail?)    more information about my setup below    java version:         error:         test program:            since the issue is confirmed by others  i've reported it as a bug to oracle.  "
+      }
+    ]
+  },
+  {
+    "author": "DSquare",
+    "parent": "",
+    "title": "\"SwingWorker  done() is executed before process() calls are finished\"",
+    "commentid": "q_87755",
+    "date": "Jul 25, 2014 8:04:39 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.6680000000000001,
+        "sent": " i have been working with  swingworker s for a while and have ended up with a strange behavior  at least for me. i clearly understand that due to performance reasons several invocations to  publish()  method are coallesced in one invocation. it makes perfectly sense to me and i suspect swingworker keeps some kind of queue to process all that calls.    according to  tutorial  and api  when swingworker ends its execution  either  doinbackground()  finishes normally or worker thread is cancelled from the outside  then  done()  method is invoked. so far so good.    but i have an example (similar to shown in tutorials) where there are   method  calls done   after     method is executed. since both methods execute in the  event dispatch thread  i would expect   be executed after all   invocations are finished. in other words:    expected:         result:         sample code       "
+      }
+    ]
+  },
+  {
+    "author": "Christian",
+    "parent": "",
+    "title": "\"Is there a formatting flag that converts to a lowercase String in Java?\"",
+    "commentid": "q_88263",
+    "date": "Jul 24, 2014 11:31:33 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.6680000000000001,
+        "sent": " there are two placeholders in java that convert to a string:        -- converts to a string as-is     -- converts to an uppercase string.      so  given:           if template =    the result will be     if template =    the result will be         question:    generally  is there a way to convert an argument to a lowercase string using only java's format conversion syntax?  (in other words  without using  .) specifically  is there any possible value for   such that the result will be  ?  "
+      }
+    ]
+  },
+  {
+    "author": "La-comadreja",
+    "parent": "",
+    "title": "\"Static char and int array difference\"",
+    "commentid": "q_91567",
+    "date": "Jul 18, 2014 1:48:16 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.0,
+        "sent": " when i try to print the uninitialized  static char array  it gives run time error (null pointer exception) whereas the uninitialized  static int array  gives null value. why?       "
+      }
+    ]
+  },
+  {
+    "author": "amalloy",
+    "parent": "",
+    "title": "\"Very confused by Java 8 Comparator type inference\"",
+    "commentid": "q_103711",
+    "date": "Jun 26, 2014 10:36:57 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.508,
+        "sent": " i've been looking at the difference between   and    specifically regarding using the   static methods and whether param types are required in the lambda expressions. before we start  i know i could use method references  e.g.   to overcome my problems  but my query here is not so much something i want to fix but something i want an answer to  i.e. why is the java compiler handling it in this way.     these are my finding. suppose we have an   of type    with some songs added  there are 3 standard get methods:         here is a call to both types of sort method that works  no problem:         as soon as i start to chain    the following happens:         i.e. syntax errors because it does not know the type of   anymore. so to fix this i add the type   to the first parameter (of comparing):         now here comes the confusing part. for p   i.e. the list  this solve all compilation errors  for both the following   calls. however  for    it solves it for the first one  but not the last one. i tested added several extra calls to   and it always shows an error for the last one  unless i put   for the parameter.    now i went on to test this further with creating a   and with using  :         the same thing happens as in  for the    there are no compilation errors but for   the last call to   shows an error.    can anyone please explain why this is happening and also why there is no need to use   at all when simply calling the comparing method (without further   calls).    one other query on the same topic is when i do this to the  :         i.e. remove the type   from the first lambda parameter for the comparing method call  it shows syntax errors under the call to comparing and the first call to   but not to the final call to   - almost the opposite of what was happening above! whereas  for all the other 3 examples i.e. with      and   when i remove that first   param type it shows syntax errors for all the calls.    many thanks in advance.    edited to include screenshot of errors i was receiving in eclipse kepler sr2  which i have now since found are eclipse specific because when compiled using the jdk8 java compiler on the command-line it compiles ok.        "
+      }
+    ]
+  },
+  {
+    "author": "Konstantinos Chalkias",
+    "parent": "",
+    "title": "\"Does Java reordering affect System.currentTimeMillis()?\"",
+    "commentid": "q_2148",
+    "date": "Dec 24, 2014 8:42:15 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": 0.0,
+        "sent": " according to java memory model  instructions can be reordered as long as the execution is  well-formed .    so i wonder  is it possible that the following codes produces the following output?     [codes][in a same thread]           [output]          if not possible  then what does jvm / implementations do to prevent this from happening?  "
+      }
+    ]
+  },
+  {
+    "author": "m3th0dman",
+    "parent": "",
+    "title": "\"Most efficient way to get the last element of a stream\"",
+    "commentid": "q_5149",
+    "date": "Dec 18, 2014 6:17:25 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 6,
+        "systemtopicid": 6,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "JSON",
+        "linePolarity": 0.6680000000000001,
+        "sent": " stream doesn't have a   method:         so what's the most elegant and or efficient way to get the last element or null for an empty stream?  "
+      }
+    ]
+  },
+  {
+    "author": "Marcin Szymczak",
+    "parent": "",
+    "title": "\"static method with static default code?\"",
+    "commentid": "q_7156",
+    "date": "Dec 14, 2014 10:48:08 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10,
+        "systemtopicid": 10,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": -1.0,
+        "sent": " sorry for the bad title  but i found the code listed below on  mkyoung.com  and was wondering what this code does. is this a way in java to set some default value into a variable?       "
+      }
+    ]
+  },
+  {
+    "author": "David Conrad",
+    "parent": "",
+    "title": "\"How to convert big hex number (with decimal point) to BigDecimal\"",
+    "commentid": "q_15365",
+    "date": "Dec 1, 2014 10:55:34 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.6680000000000001,
+        "sent": " i have a big number in hex format (with decimal point) in a   and i want to convert it to a       example value:      in   class  i don't see any function which takes string representing number in hex format as input and returns corresponding      is there a way to convert a big hex number from   to    "
+      }
+    ]
+  },
+  {
+    "author": "Christian Strempfer",
+    "parent": "",
+    "title": "\"Cannot convert from List&lt;List&gt; to List&lt;List&lt;?&gt;&gt;\"",
+    "commentid": "q_31170",
+    "date": "Nov 5, 2014 1:41:49 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.0,
+        "sent": " a raw list converts to   just fine. why can't a list of raw lists convert to a list of  ?          (backstory  to mitigate  the xy problem :  an api i'm using returns  . i happen to know that it is always  . i plan to loop and build my own    but i was trying to fix (but not suppress) the raw type compiler warning when i write  . i tried:         but these give the type mismatch error.    interestingly  this gives no warning or error:          )   "
+      }
+    ]
+  },
+  {
+    "author": "Pier-Alexandre Bouchard",
+    "parent": "",
+    "title": "\"How does this static code work?\"",
+    "commentid": "q_33538",
+    "date": "Nov 1, 2014 10:34:31 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 3,
+        "systemtopicid": 3,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Servlets",
+        "linePolarity": 0.0,
+        "sent": " code:         result:         how does this code change \\\"hello\\\" to \\\"howdy\\\" when printing?  "
+      }
+    ]
+  },
+  {
+    "author": "Chriss",
+    "parent": "",
+    "title": "\"Concurrent ArrayList\"",
+    "commentid": "q_42583",
+    "date": "Oct 17, 2014 4:26:14 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.8879999999999999,
+        "sent": " i need an arraylist-like structure allowing just the following operations                         because of the iterator being used in many places  using   would be too error-prone. the list can grow to a few thousand elements and gets used a lot  so i'm pretty sure  that   will be too slow. i'll start with it to avoid premature optimizations  but i'd bet it won't work well.    most accesses will be single-threaded reads. so i'm asking what's the proper data structure for this.       i though that wrapping the   in something providing a synchronized iterator would do  but it won't because of the  . concenrning concurrent behavior  i obviously need that all changes will be visible by subsequent reads and iterators.     the iterator doesn't have to show a consistent snapshot  it may or may not see the updates via   as this operation gets used only to replace an item with its updated version (containing some added information  which is irrelevant for the user of the iterator). the items are fully immutable.       i clearly stated why   would not do.   is out of question as it lacks an indexed access. i need just a couple of operations rather than a fully fledged  . so unless  any java concurrent list-related  question is a duplicate of  this question   this one is not.  "
+      }
+    ]
+  },
+  {
+    "author": "Mondkin",
+    "parent": "",
+    "title": "\"How can I check if an object(s) are in front of the camera?\"",
+    "commentid": "q_48523",
+    "date": "Oct 7, 2014 7:20:06 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10,
+        "systemtopicid": 10,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": 0.10000000000000009,
+        "sent": " i have got some trees  which are greatly lagging the game  so i would like to check if the trees are in front of the camera or not.      i have had some help from the  mathematics forum   and also had a look at  this link  to help me convert pitch/yaw to the directional vector needed.    but for some reason  whenever i move the camera to the left  the trees become visible  wheras whenever i move it to the right  they become unvisible (so if camera is pointing at +1 on the z axis  it seems to be rendering the trees  but -1 on the z axis and it seems to not render them).   (see  http://i.gyazo.com/cdd05dc3f5dbdc07577c6e41fab3a549  for a less-jumpy .mp4)    i am using the following code to check if an object is in front of the camera or not:         is anyone able to tell me what i have done wrong here? i can't work out if it's the math.. or the code.. or what?    camera translation code:         update:    it appears to be where the camera is looking. for example  if i look to -z  nothing happens  but if i look to +z  they all render. the   appears to somehow being +z rather than +thecamerarotation.   "
+      }
+    ]
+  },
+  {
+    "author": "Steve K",
+    "parent": "",
+    "title": "\"Ambiguous overload in Java8 - is ejc or javac right?\"",
+    "commentid": "q_48989",
+    "date": "Oct 6, 2014 11:30:20 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.44399999999999995,
+        "sent": " i have the following class:         this compiles fine under jdk 7's javac  as well as eclipse (with compliance set to 1.7 or 1.8). however  attempting to compile under jdk 8's javac  i get the following error:         note that this error applies only to the constructor invocation in the   method  not the one in the   method. the only difference is that   is relying on the diamond operator.    my question is this: is javac under jdk 8 properly flagging an ambiguous resolution  or was javac under jdk 7 failing to catch an ambiguity? depending on the answer  i need to either file a jdk bug  or an ecj bug.  "
+      }
+    ]
+  },
+  {
+    "author": "ratchet freak",
+    "parent": "",
+    "title": "\"Passing mutable data between threads\"",
+    "commentid": "q_75128",
+    "date": "Aug 19, 2014 12:15:44 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4,
+        "systemtopicid": 4,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.45999999999999996,
+        "sent": " here's a basic question about multi-threading in java: i have very big mutable data structure (a tree  to be exact) and i understand that if i want to modify this data structure concurrently from two different threads  i need to use locks and/or other kinds of thread safety.    however  in my case  the two threads don't need to modify the data structure  at the same time ; rather  thread a  which normally owns the data structure  should temporarily pass the latter to thread b  and thread b should pass the data structure back to thread a after having done some long-running modifications on it.    is it thread-safe to pass this mutable data structure back and forth between threads  if it's guaranteed that the threads do not modify the data at the same time?  "
+      }
+    ]
+  },
+  {
+    "author": "ntoskrnl",
+    "parent": "",
+    "title": "\"Why is throwing a checked exception type allowed in this case?\"",
+    "commentid": "q_87101",
+    "date": "Jul 27, 2014 7:01:50 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.1319999999999999,
+        "sent": " i noticed by accident that this   statement (extracted from some more complex code) compiles:         for a brief but happy moment i thought that checked exceptions had finally decided to just die already  but it still gets uppity at this:         the   block doesn't have to be empty; it seems it can have code so long as that code doesn't throw a checked exception. that seems reasonable  but my question is  what rule in the language specification describes this behavior? as far as i can see   ?14.18 the throw statement  explicitly forbids it  because the type of the   expression is a checked exception  and it's not caught or declared to be thrown. (?)  "
+      }
+    ]
+  },
+  {
+    "author": "Didier L",
+    "parent": "",
+    "title": "\"Creating object using static keyword in Java\"",
+    "commentid": "q_88693",
+    "date": "Jul 24, 2014 12:20:38 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2,
+        "systemtopicid": 2,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": -0.8559999999999999,
+        "sent": "      when i wrote this code i am getting output in order like this:         here when i created a new object in   got loaded and   variables and blocks are executed in order they are written. when control came to line 4   instance initialization block is called. why? why is static block not called when a new object is created at line 4 and till that time static block was also not called even once  so according to convention static block should have been called. why is this unexpected output coming?  "
+      }
+    ]
+  },
+  {
+    "author": "Syam S",
+    "parent": "",
+    "title": "\"Assigning to multilevel wildcards\"",
+    "commentid": "q_94508",
+    "date": "Jul 14, 2014 6:28:25 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.6680000000000001,
+        "sent": " simple class:         and a few assignments:         why does bullet number three not compile while the fourth one is perfectly legal?    compiler error:       "
+      }
+    ]
+  },
+  {
+    "author": "Edwin Buck",
+    "parent": "",
+    "title": "\"Can&#39;t get Maven to recognize Java 1.8\"",
+    "commentid": "q_95516",
+    "date": "Jul 11, 2014 1:19:24 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": 0.18000000000000016,
+        "sent": " i can't seem to be able to get maven to use java 1.8. using 1.8 as the target turns up the following error:         the cause of the error is obvious enough: maven isn't using the right version of java:         but the installed version of java should be 1.8:         and java_home is set:         i also tried the  command here  (which creates  ). i've tried restarting the computer several times  and have verified that the env var is correctly set (it's set in  ).    maven was installed with homebrew.    java 1.8 is working fine in eclipse (which is using m2e). i just can't get maven to work on the command line.  "
+      }
+    ]
+  },
+  {
+    "author": "Petter",
+    "parent": "",
+    "title": "\"What are the &#39;shadow$_klass_&#39; and &#39;shadow$_monitor_&#39; variables for in java.lang.Object?\"",
+    "commentid": "q_25652",
+    "date": "Nov 14, 2014 8:55:33 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 8,
+        "systemtopicid": 8,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Database",
+        "linePolarity": 0.0,
+        "sent": " in the latest android update (sdk 21)  it appears that 2 new variables have been added to java.lang.object:         i notice that   is briefly used in  :         but otherwise there are no references to them.  are they somehow related to gc in art? or some sort of native stuff?  "
+      }
+    ]
+  },
+  {
+    "author": "Nick L.",
+    "parent": "",
+    "title": "\"Cast to unimplemented interface compiles\"",
+    "commentid": "q_1995",
+    "date": "Dec 25, 2014 10:33:27 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7,
+        "systemtopicid": 7,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.3999999999999999,
+        "sent": " i am not sure i understand code on line 1 below?         i understand line2 since phone implements talkable  but device and talkable are unrelated  how can line1 be legal?  "
+      }
+    ]
+  },
+  {
+    "author": "PeterMmm",
+    "parent": "",
+    "title": "\"When is length used as a method and when as property in Java?\"",
+    "commentid": "q_6196",
+    "date": "Dec 16, 2014 11:00:32 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.768,
+        "sent": " i've seen some legacy code that uses  property on some objects and others that uses   method. currently i'm working with a   from the   package and i found that it have the   method to get the numbers of elements.     my question is how as java developer i can know how to determine when to use           ? obviously it depends of the object type and the api is there for read... but the point is how the java development select which of that implements in their classes.     note:  in the question  when to use .length vs .length()  makoto answer's indicates that   is a property on arrays. that isn't a method call  and   is a method call on string. but  why is the reason? why not use ever a method or ever a property for maintain the consistency around all the api.  "
+      }
+    ]
+  },
+  {
+    "author": "Marv",
+    "parent": "",
+    "title": "\"Is multiplying by 0.0000001 the same as dividing by 10000000?\"",
+    "commentid": "q_6872",
+    "date": "Dec 15, 2014 8:22:29 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5,
+        "systemtopicid": 5,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.6680000000000001,
+        "sent": " in java  is multiplying a double by 0.0000001 the same as dividing it by 10000000? my intuition is that there could be a difference because 0.0000001 cannot be represented exactly in a double.  "
+      }
+    ]
+  },
+  {
+    "author": "EJK",
+    "parent": "",
+    "title": "\"Is there a way to &quot;alias&quot; one class in Java for another?\"",
+    "commentid": "q_8623",
+    "date": "Dec 11, 2014 3:05:05 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9,
+        "systemtopicid": 9,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -1.284,
+        "sent": " i have the following api compatibility problem and looking for the ways to solve it.      tl;dr is there a way to create an \\\"alias\\\" for a class in java? i.e. some trick to make   to be an alias for  ?     long story. (i'm anonimizing it a bit to avoid fingerpointing.)    i'm working with a powerful java tool which also supports plugins. there's no strictly defined  public  api (in a sense of what you can and can't touch)  just usual private/protected/package/public classes  methods and fields. there are defined extension points (like  extend   class)  but then you'll have access to a wide area of the tool's internals.    in the recent minor version update (like    ->  ) tool developers have moved one enum class to another package -   became  . i think it was thought just as a trivial refactoring  not as a serios restructuring.    this class  however  seems to have been used by a number of plugins. the result is that these plugins are now incompatible with the latest version. most of the plugins are quite useful  but not actively maintained. people wrote them years ago - and they just worked over the years  with dozens of the version updates. so this has a potential of negative implact on the tool's plugin ecosystem.       my question is  if there's some way in java to create an \\\"alias\\\"   for  ? this would allow old plugins to continute working with the new version of the tool.    some classloader trick? in javascript that would've been trivial to shim  but in java?    why  i  am asking this. i'm an author of the maven plugin which wraps the tool in question. so i could easily add my sugar to this coffee  like classloaders and so on. if there is a technical way to make this work  i'd be in position to save most of the tool's plugins ecosystem - at least for maven users.    i've contacted the tool's vendor on this  but not sure of the success.    just to make it clear -  i  am  not  the vendor of the tool in question. i (a) write plugins for the tools (and have no big trouble updating  my  plugins) and (b) am an author of the   which allows execution the tool in the maven builds. i also consult a lot on the tool and care about its ecosystem (there are a lot of very useful plugins).        update     end of story: developers of the tool took my points into account  and decided to revert the change. kudos for that!  "
+      }
+    ]
+  },
+  {
+    "author": "hgrey",
+    "parent": "",
+    "title": "\"Abstract methods and the varargs annotation\"",
+    "commentid": "q_21608",
+    "date": "Nov 20, 2014 5:51:20 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 6,
+        "systemtopicid": 6,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "JSON",
+        "linePolarity": -0.8759999999999999,
+        "sent": " scala provides a    annotation  that generates a java varargs forwarder method  which makes it possible to write something like this:         and then to call this method from java without needing to create a  :         which is pretty nice.    unfortunately the forwarding part doesn't seem to happen when the method is abstract:         now if we have this java code:         we get this exception (at runtime):         we can confirm the problem with  :         so nope  the forwarder definitely isn't getting implemented.    putting the annotation on both   methods fails to compile:         and of course putting the annotation only on the   in   means we can't use the forwarder from a   instance.    this seems like it must be a bug  but it also seems extremely easy to run into  and i'm not seeing anything in the issue tracker. am i using   correctly? if so  is there a workaround that would make it do what you'd expect here?  "
+      }
+    ]
+  },
+  {
+    "author": "shikjohari",
+    "parent": "",
+    "title": "\"How a jar file gets executed\"",
+    "commentid": "q_30220",
+    "date": "Nov 7, 2014 12:11:55 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10,
+        "systemtopicid": 10,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": -0.6680000000000001,
+        "sent": " how does the jvm execute classes inside the jar? does it extract the contents of jar to a temp location and then executes the classes?  "
+      }
+    ]
+  },
+  {
+    "author": "Evgeniy Dorofeev",
+    "parent": "",
+    "title": "\"No ClassCastException is thrown inside Java generics\"",
+    "commentid": "q_33423",
+    "date": "Nov 2, 2014 6:21:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1,
+        "systemtopicid": 1,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": -0.28400000000000003,
+        "sent": " below is the first java generics i've ever written :         the result is  \\\"exception outside casttoanothertype()\\\" . why did the exception not occur inside the generic method?  "
+  }
+    ]
+  }
+]
+}

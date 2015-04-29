@@ -1,0 +1,971 @@
+{
+
+"totalTopics":"10",
+
+
+"totalLines":"51",
+
+"topics":[{"topicID":1,"strength":88,"labels":[
+{"phrase":"Android","prob":0.2},
+{"phrase":"mobile","prob":0.2},
+{"phrase":" Java","prob":0.2},
+{"phrase":"google","prob":0.2},
+      {"phrase":"https","prob":0.2}]},
+
+{"topicID":2,"strength":7,"labels":[{"phrase":"Loops","prob":0.367826820806},{"phrase":"function","prob":0.261955329161},{"phrase":"While","prob":0.260373021189},{"phrase":"init","prob":0.0552599084916},{"phrase":"remove","prob":0.0545849203523}]},
+{"topicID":3,"strength":8,"labels":[{"phrase":"Servlets","prob":0.170144009755},{"phrase":"Tomcat","prob":0.170144009755},{"phrase":"Deploy","prob":0.164927995123},{"phrase":"invoke","prob":0.164927995123},{"phrase":"Util","prob":0.164927995123},{"phrase":"Apache","prob":0.164927995123}]},
+{"topicID":4,"strength":80,"labels":[{"phrase":"Multithreading","prob":0.166666666667},{"phrase":"write","prob":0.166666666667},{"phrase":"produce","prob":0.166666666667},{"phrase":"complete","prob":0.166666666667},{"phrase":"execute","prob":0.166666666667},{"phrase":"single","prob":0.166666666667}]},
+{"topicID":5,"strength":20,"labels":[{"phrase":"Variables","prob":0.2},{"phrase":"size","prob":0.2},{"phrase":"number","prob":0.2},{"phrase":"character","prob":0.2},{"phrase":"byte","prob":0.2}]},
+{"topicID":6,"strength":7,"labels":[{"phrase":"JSON","prob":0.256645974355},{"phrase":"document","prob":0.186113412342},{"phrase":"parse","prob":0.186113412342},{"phrase":"null","prob":0.186034061379},{"phrase":"Annotation","prob":0.185093139582}]},
+{"topicID":7,"strength":7,"labels":[{"phrase":"Inheritance","prob":0.409374558127},{"phrase":"implement","prob":0.409374558127},{"phrase":"interface","prob":0.0604169612483},{"phrase":"subclass","prob":0.0604169612483},{"phrase":"instantiate","prob":0.0604169612483}]},
+{"topicID":8,"strength":17,"labels":[{"phrase":"Database","prob":0.227184151917},{"phrase":"table","prob":0.227184151917},{"phrase":"store","prob":0.227184151917},{"phrase":"save","prob":0.225811891145},{"phrase":"save","prob":0.0926356531028}]},
+{"topicID":9,"strength":10,"labels":[{"phrase":"Eclipse","prob":0.298665400282},{"phrase":"library","prob":0.17533364993},{"phrase":"include","prob":0.17533364993},{"phrase":"maven","prob":0.17533364993},{"phrase":"source","prob":0.17533364993}]},
+{"topicID":10,"strength":8,"labels":[{"phrase":"Network","prob":0.267809809442},{"phrase":"page","prob":0.218946001648},{"phrase":"response","prob":0.218946001648},{"phrase":"browse","prob":0.177124396867},{"phrase":"move","prob":0.117173790394}]}],
+
+"author":"blank",
+"date":"1243498080000",
+"title":"StackOverFlow JavaData Set---------------",
+"sent": [
+         {
+          "linePolarity":-50,
+            "systemtopicid":1, 
+            "systemlabel":"Loops",
+            "topicid":1,
+            "sent":"An anonymous reader writes A Turkish hacking ring has broken into 2 sensitive US Army servers according to a new investigation uncovered by InformationWeek.",
+            "sentimentwords":[]
+         },
+         {"linePolarity":0,"systemtopicid":1, "systemlabel":"army security lapse", "topicid":1, "goldlabel":"hackers breaching US army servers","sent":"The hackers who go by the name m0sted and are threadingd in Turkey penetrated servers at the Armys McAlester Ammunition Plant in Oklahoma in January.","sentimentwords":[]},{"linePolarity":-1.5,"systemtopicid":1, "systemlabel":"army security lapse", "topicid":1, "goldlabel":"hackers breaching US army servers", "sent":"Users attempting to access the site were redirected to a page featuring a climatechange protest.","sentimentwords":[]},{"linePolarity":-1.5,"systemtopicid":1, "systemlabel":"army security lapse", "topicid":1, "goldlabel":"hackers breaching US army servers", "sentid":"4", "sent":"In Sept 2007 the hackers breached Army Corps of Engineers servers.","sentimentwords":[]},{"linePolarity":-1.5,"systemtopicid":1, "systemlabel":"army security lapse", "topicid":1, "goldlabel":"hackers breaching US army servers", "sent":"That hack sent users to a page containing antiAmerican and antiIsraeli rhetoric.","sentimentwords":[]},{"linePolarity":1.5,"systemtopicid":1, "systemlabel":"army security lapse", "topicid":2, "goldlabel":"sql injection attacks", "sentid":"6", "sent":"The hackers used simple SQL Server injection techniques to gain access.","sentimentwords":[]},{"linePolarity":0.579166666667,"systemtopicid":1, "systemlabel":"army security lapse", "topicid":1, "goldlabel":"hackers breaching US army servers", "sentid":"7", "sent":"Thats troubling because it shows a major Army security lapse and also the ability to bypass supposedly sophisticated Defense Department tools and procedures designed to prevent such breaches.","sentimentwords":[]}]
+,"children":[
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Update Eclipse with Android development tools v. 23\"",
+    "commentid": "q_103684",
+    "date": "Jun 26, 2014 11:21:46 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": 0.18000000000000016,
+        "sent": " i updated eclipse with the new sdk tools (rev 23) but now when eclipse starts i receive the error:        this android sdk requires android developer toolkit version 23.0.0 or above. current version is 22.6.3.v201404151837-1123206. please update adt to the latest version.      no updates were found with  \\\"check for updates\\\" . if i try  \\\"install new software\\\"   i can see the version 23  but i can't upgrade due to the following error:         after download of the last adt from the web site  it seems there's another problem. with sdk tools rev. 23 proguard is not installed  the folder sdk   is missing and other tools are missing. this version contains several bugs.  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Do I really have a car in my garage?\"",
+    "commentid": "q_90059",
+    "date": "Jul 22, 2014 2:01:09 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.4159999999999999,
+        "sent": " i'm a newbie to java programming  trying to get the hang of oop.    so i built this abstract class:         and 2 subclasses:           and   also hold some unique fields and methods that aren't common (don't have the same name  so i can't define an abstract method for them in vehicle).    now in mainclass i have setup my new garage:         i was very happy with polymorphism until i tried to access one of the fields that are unique to car  such as:         the compiler doesn't accept that. i worked around this issue using casting:         that works... but it doesn't help with methods  just fields. meaning i can't do         so my question is - what do i really have in my garage? i'm trying to get the intuition as well as understand what's going on \\\"behind the scenes\\\".       for the sake of future readers  a short summary of the answers below:      yes  there's a   in     being a static typed language  the java compiler will not lend access to methods/fields that are non-\\\"vehicle\\\"  if accessing those through a data structure based on the vehicle super class( such as  )   as for how to solve  there are 2 main approaches below:    use type casting  which will ease the compiler's concerns and leave any errors in the design to run time   the fact that i need casting says the design is flawed. if i need access to non-vehicle capabilities then i shouldn't be storing the cars and boats in a vehicle based data structure. either make all those capabilities belong to vehicle  or use more specific (derived) type based structures      in many cases  composition and/or interfaces would be a better alternative to inheritance. probably the subject of my next question...   plus many other good insights down there  if one does have the time to browse through the answers.     "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"How can I replace two strings in a way that one does not end up replacing the other?\"",
+    "commentid": "q_30381",
+    "date": "Nov 6, 2014 4:33:46 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.22399999999999998,
+        "sent": " let's say that i have the following code:         after this code runs  the value of   will be      a similar issue occurs if i replaced them in the opposite order:         the value of   will be      my goal is to turn   into   how could i accomplish that?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does int i = 1024 * 1024 * 1024 * 1024 compile without error?\"",
+    "commentid": "q_96439",
+    "date": "Jul 10, 2014 5:17:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.8559999999999999,
+        "sent": " the limit of   is from -2147483648 to 2147483647.    if i input          then eclipse will prompt a red underline under \\\"2147483648\\\".    but if i do this:         it will compile fine.         maybe it's a basic question in java  but i have no idea why the second variant produces no error.  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does adding 0.1 multiple times remain lossless?\"",
+    "commentid": "q_52177",
+    "date": "Sep 30, 2014 4:59:48 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 1.0,
+        "sent": " i know the   decimal number cannot be represented exactly with a finite binary number ( explanation )  so   will lose some precision and will not be exactly  . on the other hand   can be represented exactly because it is  .    having said that it is understandable that adding    three times  will not give exactly   so the following code prints  :         but then how is it that adding    five times  will give exactly  ? the following code prints  :         if   cannot be represented exactly  how is it that adding it 5 times gives exactly   which can be represented precisely?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does this random value have a 25/75 distribution instead of 50/50?\"",
+    "commentid": "q_2695",
+    "date": "Dec 23, 2014 10:57:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.9079999999999999,
+        "sent": "  edit:  so basically what i'm trying to write is a 1 bit hash for  .    i want to map a   to   or   with a 50/50 chance. for that i wrote code that picks some random numbers  (just as an example  i want to use this on data with regularities and still get a 50/50 result)   checks their last bit and increments   if it is 1  or   if it is 0.     however  this code constantly results in 25%   and 75%  . why is it not 50/50? and why such a weird  but straight-forward (1/3) distribution?         example output:       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does Java think that the product of all numbers from 10 to 99 is 0?\"",
+    "commentid": "q_44097",
+    "date": "Oct 14, 2014 11:34:01 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.6680000000000001,
+        "sent": " the following block of codes gives the output as 0.         please can somebody explain why this happens?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why is Cloneable not deprecated?\"",
+    "commentid": "q_43390",
+    "date": "Oct 16, 2014 12:48:42 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4.0,
+        "systemtopicid": 4.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.5880000000000001,
+        "sent": " it is commonly understood that   interface in java is broken. there are many reasons for this  which i will not mention;  others  already did it. it is also the position of  java architects  themselves.    my question is therefore: why has is not been deprecated yet? if the core java team have decided that it is broken  then they must also have considered deprecation. what are their reasons against doing so (in java 8 it is  still not deprecated )?   "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does the Java API use int instead of short or byte?\"",
+    "commentid": "q_19173",
+    "date": "Nov 25, 2014 2:11:41 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.28400000000000025,
+        "sent": " why does the  java api  use   if   or even   would be sufficient?    example: the     field in calendar uses  .     edit:     aspects of interest:      storage   calculations      if the difference is too minimal  then why do these datatypes (short  int) exist at all? legacy?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Android app in Eclipse: Edit text not showing on Graphical layout\"",
+    "commentid": "q_101792",
+    "date": "Jun 30, 2014 5:56:22 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -1.112,
+        "sent": " i am trying to add a text field onto my android app in eclipse  but then i drag the   option on to the graphical layout  a message at the bottom comes up. it reads   even when i go to   there is no error log option. the whole designer is useless now  because i can not use it anymore until i delete the   directly from the xml. what is causing this error  and how do i fix it? i am running the latest version (as of today  6-30-14)  and windows 8 pro x64.    here is my full layout code:       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Java Name Hiding: The Hard Way\"",
+    "commentid": "q_99651",
+    "date": "Jul 4, 2014 3:25:10 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.8400000000000001,
+        "sent": " i have a problem with name hiding that is extremely hard to solve. here is a simplified version that explains the problem:    there is a class:           then there is a class           and now  here is the problematic class which inherits from   and wants to call           as you see  this is not possible. i cannot use the simple name   because it is hidden by an inherited type. i cannot use the fully qualified name    because   is hidden by an inherited field.    only the class   is in my code base; the classes   and   are library classes  so i cannot alter them!    my only solution looks like this: i could call another class that in turn calls  ; but this class would only exist because of the name clash  which seems very messy! is there no solution in which i can directly call   from  ?    in a language that allows specifying the global namespace  e.g.    in c# or   in c++  i could simply prefix   with this global prefix  but java does not allow that.  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Android Studio was unable to find a valid Jvm (Related to MAC OS)\"",
+    "commentid": "q_10802",
+    "date": "Dec 8, 2014 5:03:39 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1.0,
+        "systemtopicid": 1.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": 0.6680000000000001,
+        "sent": " i am unable to start my android studio for android development on mac os (10.10.1 - yosemite)  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"What makes Java easier to parse than C?\"",
+    "commentid": "q_45564",
+    "date": "Oct 12, 2014 2:58:53 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.031999999999999806,
+        "sent": " i'm acquainted with the fact that  c and c++ are context-sensitive   and in particular you need a \\\"lexer hack\\\" in c. on the other hand  i'm under the impression that you can parse java with only 2 tokens of look-ahead  despite considerable similarity between the two languages.     what would you have to change about c to make it more tractable to parse?     i ask because all of the examples i've seen of c's context-sensitivity are technically allowable but awfully weird. for example          could be calling the void function   with argument  . or  it could be declaring   to be an object of type    but you could just as easily get rid of the parantheses. in part  this weirdness occurs because the \\\"direct declarator\\\" production rule for the  c grammar  fulfills the dual purpose of declaring both functions and variables.    on the other hand  the  java grammar  has separate production rules for variable declaration and function declaration. if you write         then you know it's a variable declaration and   can unambiguously be parsed as a typename. this might not be valid code if the class   hasn't been defined somewhere in the current scope  but that's a job for semantic analysis that can be performed in a later compiler pass.    i've seen it said that c is hard to parse because of typedef  but you can declare your own types in java too. which c grammar rules  besides    are at fault?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why doesn&#39;t RecyclerView have onItemClickListener()? and How RecyclerView is different from Listview?\"",
+    "commentid": "q_89996",
+    "date": "Jul 22, 2014 3:43:39 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1.0,
+        "systemtopicid": 1.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": 1.04,
+        "sent": " i don't know whether i am asking the right question. i was exploring recyclerview and i was surprised to see that recyclerview does not have onitemclicklistener(). because recyclerview extends  android.view.viewgroup . and listview extends  android.widget.abslistview .  however i solved my problem by writing onclick in my recyclerview.adapter:         but still i want to know why google removed onitemclicklistener()? is there a performance issue or something else?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Populating a Boolean Array in Java\"",
+    "commentid": "q_97218",
+    "date": "Jul 9, 2014 3:36:00 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4.0,
+        "systemtopicid": 4.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.8559999999999999,
+        "sent": " as a fairly green java coder i've set myself the hefty challenge of trying to write a simple text adventure. unsurprisingly  i've encountered difficulties already!     i'm trying to give my location class a property to store which exits it contains. i've used a boolean array for this  to essentially hold true/false values representing each exit. i'm not entirely convinced that      a)  this is the most efficient way to do this and      b)  that i'm using the right code to populate the array.    i would appreciate any and all feedback  even if it is for a complete code over-haul!    at present  when instantiating a location i generate a string which i send through to the setexits method:         in the location class  setexits looks like this:         i'll be honest  i think this looks particularly clunky  but i couldn't think of another way to do it. i'm also not entirely sure now how to write the getexits method...    any help would be welcome!  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Android Studio needs JDK 7 for Android-L mac\"",
+    "commentid": "q_102729",
+    "date": "Jun 28, 2014 5:02:25 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.3999999999999999,
+        "sent": " i was trying to look how my app looks in material design and i would like to use the new cards lib. my problem is  that it's giving me this error within my gradle file and i need to fix that.         i downloaded  and installed it.  in terminal is showing me that 1.7 is installed:         well         is giving me:           doesn't have a  . i found the   here:         and set the path to the \\\"sdk location\\\" preferences in android studio under \\\"jdk location\\\". but it's not working -- it seems that it still can't find jdk 7.    i'm using mac osx 10.9.3 and android studio (beta) 0.8.1.  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"What is a possible use case of BigInteger&#39;s .isProbablePrime()?\"",
+    "commentid": "q_8732",
+    "date": "Dec 11, 2014 11:39:57 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 8.0,
+        "systemtopicid": 8.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Database",
+        "linePolarity": -1.2,
+        "sent": "  the method biginteger.isprobableprime()  is quite strange; from the documentation  this will tell whether a number is prime with a probability of    where   is the integer argument.    it has been present in the jdk for quite a long time  so it means it must have uses. my limited knowledge in computer science and algorithms (and maths) tells me that it does not really make sense to know whether a number is \\\"probably\\\" a prime but not exactly a prime.    so  what is a possible scenario where one would want to use this method? cryptography?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Is id = 1 - id atomic?\"",
+    "commentid": "q_20326",
+    "date": "Nov 23, 2014 5:56:11 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4.0,
+        "systemtopicid": 4.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.3719999999999999,
+        "sent": " from page 291 of ocp java se 6 programmer practice exams  question 25:         one of the answers is:        the output could be        i marked this answer as correct. my reasoning:      we are starting two threads.    first one enters  .   according to  jls 15.26.1   it firstly evaluates  . result is  . it is stored on the thread's stack. we are just about to save that   to static    but...   boom  scheduler chooses the second thread to run.   so  the second thread enters  . static   is still    so he executes method  .   is printed.   scheduler chooses first thread to run. it takes   from its stack and saves to static  . so  the first thread also executes   and prints  .      however  in the book it's written that this answer is incorrect:        it is incorrect because the line   swaps the value of   between   and  . there is no chance for the same method to be executed twice.      i don't agree. i think there is some chance for the scenario i presented above. such swap is not atomic. am i wrong?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why is &quot;while (i++ &lt; n) {}&quot; significantly slower than &quot;while (++i &lt; n) {}&quot;\"",
+    "commentid": "q_76758",
+    "date": "Aug 15, 2014 12:24:23 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4.0,
+        "systemtopicid": 4.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.748,
+        "sent": " apparently on my windows 8 laptop with hotspot jdk 1.7.0_45 (with all compiler/vm options set to default)  the below loop         is at least 2 orders of magnitude faster (~10 ms vs. ~5000 ms) than:         i happened to noticed this problem while writing a loop to evaluate another irrelevant performance issue. and the difference between   and   was huge enough to significantly influence the result.    if we look at the bytecode  the loop body of the faster version is:         and for the slower version:         so for    it first increments local variable   by 1 and then push it onto the operand stack while   does those 2 steps in reverse order. but that doesn't seem to explain why the former is much faster. is there any temp copy involved in the latter case? or is it something beyond the bytecode (vm implementation  hardware  etc.) that should be responsible for the performance difference?    i've read some other discussion regarding   and   (not exhaustively though)  but didn't find any answer that is java-specific and directly related to the case where   or   is involved in a value comparison.  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Is (x - x) always positive zero for doubles  or sometimes negative zero?\"",
+    "commentid": "q_87987",
+    "date": "Jul 25, 2014 1:06:24 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4.0,
+        "systemtopicid": 4.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": 0.0,
+        "sent": " when   is a    is   guaranteed to be    or might it sometimes be   (depending on the sign of  )?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Do &quot;nothing&quot; while &quot;condition&quot;\"",
+    "commentid": "q_98540",
+    "date": "Jul 7, 2014 4:30:21 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4.0,
+        "systemtopicid": 4.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.9079999999999999,
+        "sent": " while browsing the code for the java 8 version of forkjoinpool(which has a few interesting changes from java 7) i ran across this construct ( here ):         i'm struggling with why you would write it like this instead of just         is it just a semantics/readability choice  since you could read the first construct as  ? or is there some additional benefit i'm missing?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "Explain the syntax of Collections.&lt;String&gt;emptyList()",
+    "commentid": "q_908",
+    "date": "Dec 28, 2014 10:18:20 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10.0,
+        "systemtopicid": 10.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": 0.0,
+        "sent": " i just studied about generic programming  the   interface  and    so i can understand the statement below.         but i don't understand the next statement which i saw while surfing the web.           what is  ? why isn't it   or  ?   why is   placed before the method name  ?      (isn't   correct for generic?)      what does the statement mean?    "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does one long string take MORE space than lots of small strings?\"",
+    "commentid": "q_16763",
+    "date": "Nov 28, 2014 2:54:34 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.28400000000000003,
+        "sent": " here is some code for a dfa  implemented as an array of strings:         i thought i could save some space by using one long string instead of a string array:         as it turns out  i was wrong. eclipse kepler generates the following class files:         how come the second class is even bigger than the first class? do very long strings incur some space penalty i am not aware of?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Infinite loop breaks method signature without compilation error\"",
+    "commentid": "q_81842",
+    "date": "Aug 6, 2014 12:24:30 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -1.0,
+        "sent": " i am wondering why is the following code allowed in java  without getting compilation error? in my opinion  this code breaks method signature by not returning any  . could someone explain what i'm missing here?         "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does &#39;(int)(char)(byte)-2&#39; produce 65534 in Java?\"",
+    "commentid": "q_97710",
+    "date": "Jul 8, 2014 8:35:32 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.7999999999999998,
+        "sent": "      i encountered this question in technical test for a job. it gives the output as 65534. this behavior is with negative values only; 0 and positive numbers yield the same value  meaning the one entered in sop. the byte cast here is insignificant; i have tried without it. so my question is: what exactly is going on here?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why are arrays Objects  but can not be used as a base class?\"",
+    "commentid": "q_6394",
+    "date": "Dec 16, 2014 5:42:03 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.948,
+        "sent": " the java language specification specifies that         in the java programming language arrays are objects (?4.3.1)  are dynamically created  and may be assigned to variables of type object (?4.3.2). all methods of class   may be invoked on an array.      so  considering arrays are objects ? why did the java designers make the decision not to allow inherit and override from it  for example      or  ?    the current syntax wouldn't allow creating anonymous classes with an array as the base class  but i don't think  that  was the reason for their decision.  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Will Java Final variables have default values?\"",
+    "commentid": "q_86815",
+    "date": "Jul 28, 2014 12:49:33 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1.0,
+        "systemtopicid": 1.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": -1.0,
+        "sent": " i have a program like this:         if i try to execute it  i am getting compiler error as :   based on java default values i should get the below output right??         will final variables have dafault values?    if i change my code like this          i am getting output as:         can anyone please explain this behavior..  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"What does the -&gt; &lt;- operator do?\"",
+    "commentid": "q_88353",
+    "date": "Jul 24, 2014 8:46:30 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": 0.6680000000000001,
+        "sent": " i recently came upon the following code:         what is this  some sort of reverse double lambda?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Java Primitives range calculation\"",
+    "commentid": "q_93450",
+    "date": "Jul 15, 2014 10:39:25 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.0,
+        "sent": " in java when we declare          it will gives compile time error but           compiles fine.  why this happened?   "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Performance issue: Java vs C++\"",
+    "commentid": "q_89091",
+    "date": "Jul 23, 2014 8:21:30 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -1.156,
+        "sent": " i have always heard that c++ was way more efficient than java (and that is why most games are developped in c++).    i wrote a small algorithm to solve the \\\"eight queens puzzle\\\" in both java and c++  using the exact same algorithm  and then started to raise the number or squares. when reaching checkboards of 20*20 or even 22*22  it appears java is much more effective (3 seconds vs 66 seconds for c++).    i have no idea why  but i am pretty beginning with c++  so it is possible i made some huge performance mistakes  so i will gladly accept any information that would help me understand what is happening.    below is the code i use in java:         and below is the code in c++:       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why we should not use protected static in java\"",
+    "commentid": "q_108264",
+    "date": "Jun 18, 2014 8:09:05 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1.0,
+        "systemtopicid": 1.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": -0.3999999999999999,
+        "sent": " i was going through this question  is there a way to override class variables in java?  the first comment with 36 upvotes was:        if you ever see a    run.      can anyone explain why is a   frowned upon?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"In Java  which gets executed first  &quot;+&quot; or &quot;++&quot;?\"",
+    "commentid": "q_63460",
+    "date": "Sep 10, 2014 2:02:00 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1.0,
+        "systemtopicid": 1.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": -0.28400000000000003,
+        "sent": " i tried the following code in java         my view is since ++ has a higher precedence than +  the above becomes         however  i get the answer 11 for t2. can someone explain?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why can&#39;t you add an int and a char in some cases?\"",
+    "commentid": "q_98577",
+    "date": "Jul 7, 2014 3:16:50 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": 0.0,
+        "sent": " why does         work  but         doesn't?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why is i++ not atomic?\"",
+    "commentid": "q_81458",
+    "date": "Aug 6, 2014 11:55:21 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 2.0,
+        "systemtopicid": 2.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Loops",
+        "linePolarity": -0.22399999999999998,
+        "sent": " why is   not atomic in java?    to get a bit deeper in java i tried to count how often the loop in threads are executed.    so i used a         in the main class.    i have two threads.      thread 1: prints     thread 2: prints        and i count the lines printed by thread 1 and thread 2. but the lines of thread 1 + lines of thread 2 don't match the total number of lines printed out.    here is my code:       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Confusing output from String.split\"",
+    "commentid": "q_84818",
+    "date": "Jul 31, 2014 3:28:15 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10.0,
+        "systemtopicid": 10.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": 0.0,
+        "sent": " i do not understand the output of this code:         and got the following output:       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Fastest way to sum integers in text file\"",
+    "commentid": "q_68311",
+    "date": "Sep 1, 2014 6:21:20 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.3719999999999999,
+        "sent": " question    suppose you have a large ascii text file  with a random non-negative integer on each line  each in the range from 0 to 1 000 000 000. there are 100 000 000 lines in the file. what's the fastest way to read through the file and calculate the sum of all the integers?    constraint: we've got 10mb of ram to work with. the file is 1gb in size  so we don't want to read the whole thing in and then process it.    here are various solutions i've tried. i found the results rather surprising.    is there anything faster that i've missed?     please note:  all timings given below are for running the algorithm  10 times  in total (run once and discard; start timer; run 10 times; stop timer). the machine is a fairly slow core 2 duo.    method 1: the natural approach    the first thing to try is the obvious approach:         note that the maximum possible return value is 10^17  which still easily fits in a    so we don't have to worry about overflows.    on my machine  running this 11 times and discounting the first run takes around  92.9 seconds .    method 2: a minor tweak    inspired by a comment on  this question   i tried not creating a new   to store the result of parsing the line  and instead just to add the parsed value directly to  . so this:         becomes this:         i was certain that this wouldn't make any difference  and thought it highly likely that the compiler would generate the same bytecode for the two versions. but  to my surprise  it did shave a little time off: we're down to  92.1 seconds .    method 3: manually parsing the integer    one thing that bothers me about the code so far is that we turn the   into an    and then add it on at the end. might it not be quicker to add on as we go? what happens if we parse the   ourselves? something like this...         this  i thought  might save a little time  especially with some bitshift optimisations for doing the multiplication. but the overheads of converting to a character array must swamp any gains: this now takes  148.2 seconds .    method 4: processing in binary    one last thing we can try is to process the file as binary data.    parsing an integer from the front is awkward if you don't know the length of it. parsing it backwards is much easier: the first digit you encounter is units  the next one is tens  and so on. so the easiest way to approach the whole thing is to read the file backwards.    if we allocate a   buffer of (say) 8mb  we can fill it up with the last 8mb of the file  process it  then read the preceding 8mb  and so on. we need to be a little careful that we don't screw up a number that we're in the middle of parsing when we move to the next block  but that's the only problem.    when we encounter a digit  we add it (suitably multiplied according to its position in the numeral) to the total  and then multiply the coefficient by 10 so we're ready for the next digit. if we encounter anything that isn't a digit (a cr or lf)  we just reset the coefficient.         this runs in  30.8 seconds ! that's a  speed increase by a factor of 3  over the previous best.    follow-up questions       why is this so much faster?  i was expecting it to win  but not quite so impressively. is it mainly the overheads of converting to a  ? and all the worrying behind the scenes about character sets and the like?   can we do any better than this by using a   to help? i have a feeling that the overheads of invoking methods to read from the buffer would slow things down  especially when reading backwards from the buffer.   would it be better to read the file forwards rather than backwards  but still scan the buffer backwards? the idea would be that you read the first chunk of the file  and then scan backwards  but discarding the half-number at the end. then when you read the next chunk  you set the offset so that you read from the beginning of the number you discarded.   is there anything i haven't thought of that could make a significant difference?      update: more surprising results    first  an observation. it should have occurred to me before  but i think the reason for the inefficiency of the  -based reading is not so much the time taken to create all the   objects but the fact that they are so short-lived: we've got 100 000 000 of them for the garbage collector to deal with. that is bound to upset it.    now some experiments based on answers/comments people have posted.    am i cheating with the size of the buffer?    one suggestion was that since a   uses a default buffer of 16kb  and i've used a buffer of 8mb  i'm not comparing like with like. it's bound to be faster if you use a bigger buffer.    here's the shock. the   method (method 4) ran in 30.8 seconds yesterday with an 8mb buffer. today  code unchanged  the wind direction has changed and we're at 30.4 seconds. if i drop the buffer size down to 16kb to see how much slower it gets   it gets faster!  it now runs in  23.7 seconds . crazy. who saw that one coming?!    a bit of experimentation suggests that 16kb is about optimal. perhaps the java guys did the same experiments  and that's why they went with 16kb!    is the problem i/o-bound?    i wondered about this too. how much time is spent on disk access  and how much on number crunching? if it's almost all disk access  as suggested by a well-supported comment on one of the proposed answers  then we won't be able to make much improvement whatever we do.    this is easy to test by running the code with all the parsing and number crunching commented out  but with the reading still intact:         this now runs in  3.7 seconds ! this doesn't look i/o-bound to me.    of course  some of the i/o speed will come from disk cache hits. but that isn't really the point here: we're still taking 20 seconds of cpu time (also confirmed using linux's   command)  which is plenty big enough to try to reduce it.    scanning forwards instead of backwards    i'd maintained in my original post that there was good reason to scan the file backwards rather than forwards. i didn't explain that very well. the idea was that if you scan a number forwards  you have to accumulate the total value of the scanned number  and then add it on. if you scan backwards  you can add it to the cumulative total as you go. my subconscious was making some sort of sense to itself (on which more later)  but i'd missed one key point  which was pointed out in one of the answers: to scan backwards  i was doing two multiplications per iteration  but with scanning forwards you need only one. so i coded up a forward-scanning version:         this runs in  20.0 seconds   beating the backward-scanning version by a distance. nice.    multiplication cache    what i realised during the night  though  was that although i was performing two multiplications per iteration  there was the possibility of using a cache to store these multiplications  so that i could avoid having to perform them during backwards iteration. i was pleased to see when i woke up that someone had had the same idea!    the point is that there are at most 10 digits in the numbers we're scanning  and only 10 possible digits  so only 100 possibilities for the value of a digit to the cumulative total. we can precompute these  and then use them in the backward-scanning code. that ought to beat the forward-scanning version  because we've now got rid of the multiplications entirely. (note that we can't do this with forward scanning  because the multiplication is of the accumulator  which could take any value up to 10^9. it's only in the backward case that both operands are limited to a few possibilities.)         this runs in  26.1 seconds . disappointing  to say the least. reading backwards is less efficient in terms of i/o  but we've seen that i/o is not the major headache here. i had expected this to make a big positive difference. perhaps the array lookup is just as expensive as the multiplications we've replaced. (i did try making the array 16x16  and using bitshifts to index  but it didn't help.)    looks like forward scanning is where it's at.    using a mappedbytebuffer    next thing to add in is a    to see if that's more efficient than using a raw  . it doesn't need much change to the code.         this does seem to improve things a little: we're now at  19.0 seconds . we've taken another second off our personal best!    what about multi-threading?    one of the proposed answers involves using multiple cores. i'm a little ashamed that that hadn't occurred to me!    the answer came in for some stick  because of the assumption that it's an i/o-bound problem. this seems a little harsh  in light of the results about i/o! certainly worth a try  in any case.    we'll do this using fork/join. here's a class to represent the result of a computation on part of the file  bearing in mind that there might be a partial result to the left (if we started half way through a number)  and a partial result to the right (if the buffer finished half way through a number). the class also has a method for allowing us to glue two such results together  into a combined result for two adjacent sub-tasks.         now the key bit: the   that computes the result. for small problems (less than 64 characters)  it calls   to calculate the result in a single thread; for larger problems  it splits into two  solves the two sub-problems in separate threads  and then combines the results.         note that this is operating on a    rather than the whole  . the reason for that is that we want to keep the disk access sequential. we'll take quite large chunks  fork/join  and then move to the next chunk.    here's the method that does that. note that we've pushed the buffer size up to 1mb (sub-optimal earlier  but more sensible here  it seems).         now here's the soul-destroying disappointment: this nicely multi-threaded code now takes  32.2 seconds . why so slow? i spent quite a while debugging this  assuming i'd done something terribly wrong.    turns out there was just one small tweak needed. i'd thought the threshold of 64 between small problem and big problem was a reasonable one; turns out that was totally ridiculous.    think about it like this. the sub-problems are exactly the same size  so they should complete in pretty much the same time. so there's really no point splitting into more pieces than there are processors available. on the machine i'm using  with only two cores  going down to a threshold of 64 is ridiculous: it just adds more overhead.    now you don't want to limit things so that it only uses two cores even when there are more available. perhaps the right thing to do would be to find out the number of processors at runtime  and split into that many pieces.    in any case  if i change the threshold to 512kb (half the buffer size)  it now completes in  13.3 seconds . going down to 128kb or 64kb would allow more cores to be used (up to 8 or 16 respectively)  and doesn't significantly affect the runtime.    so multi-threading  does  make a big difference.    it's been quite a long journey  but we started out with something that took 92.9 seconds and we're now down to 13.3 seconds... that's  seven times the speed  of the original code. and that's not by improving the asymptotic (big-oh) time complexity  which was linear (optimal) right from the start... this has all been about improving the constant factor.    a good day's work.    postscript: generating the file of random numbers    i generated the random numbers with the following code  which i ran and redirected to a file. obviously i can't guarantee that you'll end up with exactly the same random numbers that i had :)       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Are the bit patterns of NaNs really hardware-dependent?\"",
+    "commentid": "q_85007",
+    "date": "Jul 30, 2014 7:56:13 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 5.0,
+        "systemtopicid": 5.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Variables",
+        "linePolarity": -0.17199999999999993,
+        "sent": " i was reading about floating-point nan values in the java language specification (i'm boring). a 32-bit   has this bit format:           is the sign bit    are the exponent bits  and   are the mantissa bits. a nan value is encoded as an exponent of all 1s and the mantissa bits are not all 0 (which would be +/- infinity). this means that there are lots of different possible nan values (having different   and   bit values).    on this   jls ?4.2.3  says:        ieee 754 allows multiple distinct nan values for each of its single and double floating-point formats. while each hardware architecture returns a particular bit pattern for nan when a new nan is generated  a programmer can also create nans with different bit patterns to encode  for example  retrospective diagnostic information.      the text in the jls seems to imply that the result of  for example     has a hardware-dependent bit pattern  and depending on whether that expression was computed as a compile time constant  the hardware it is dependent on might be the hardware the java program was compiled on or the hardware the program was run on. this all seems  very  flaky if true.    i ran the following test:         the output on my machine is:         the output indicates that the exponent bits are 1 as expected. the upper bit of the mantissa is also 1  which for nans apparently indicates a 'quiet nan' as opposed to a 'signalling nan' ( https://en.wikipedia.org/wiki/nan#floating_point ). the sign bit and the rest of the mantissa bits are 0. the output also indicates that there was no difference between the nans generated on my machine and the constant nans from the float and double classes.    my question is  is that output guaranteed in java  regardless of the cpu of the compiler or vm  or is it all genuinely unpredictable? the jls is mysterious about this.    if that output is guaranteed for    are there any arithmetic ways of producing nans that have other (possibly hardware-dependent?) bit patterns? (i know i could use  /  to encode other nans deliberately  but i would like to know if other values can occur from normal arithmetic.)       a followup question: i've noticed that  float.nan  and  double.nan  specify their exact bit pattern  but in the source ( float    double ) they are generated by 0.0/0.0. if that result is really dependent on the hardware of the compiler  the spec is wrong  right  and can't actually make that guarantee?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"JIT not optimizing loop that involves Integer.MAX_VALUE\"",
+    "commentid": "q_76669",
+    "date": "Aug 15, 2014 5:26:56 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 4.0,
+        "systemtopicid": 4.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "MultiThreading",
+        "linePolarity": -0.3600000000000001,
+        "sent": " while writing an answer to  another question   i noticed a strange border case for jit optimization.     the following program is  not  a \\\"microbenchmark\\\" and  not  intended to reliably measure an execution time (as pointed out in the answers to the other question). it is solely intended as an  mcve  to reproduce the issue:         it basically runs the same loop     where the limit   is once set to    and once to  .     when executing this on win7/64 with jdk 1.7.0_21 and          the timing results are as follows:         obviously  for the case of    the jit does what one could expect: it detects that the loop is useless  and completely eliminates it. however  it does  not  remove the loop when it is running up to  .     this observation is confirmed by a look at the jit assembly output when starting with          the log contains the following assembly for the method that runs up to  :         one can clearly see the loop  with the comparison to   and the jump back to  . in contrast to that  the assembly for the case where it is running up to  :         so my question is: what is so special about the   that prevents the jit from optimizing it in the same way as it does for  ? my guess would be that has to do with the   instruction  which is intended for  signed  arithmetic  but that alone is not really a convincing reason. can anybody explain this  and maybe even give a pointer to the openjdk hotspot code where this case is treated?    (an aside: i hope that the answer will also explain the different behavior between   and   that was asked for in the other question  assuming that the reason for the missing optimization is (obviously)  actually  caused by the   loop limit)  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why does =+ not cause a compile error?\"",
+    "commentid": "q_10739",
+    "date": "Dec 8, 2014 8:43:50 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1.0,
+        "systemtopicid": 1.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": 0.0,
+        "sent": " came across someone mistakenly using    instead of    in their code and it didn't show up as a compile error.    is this because         is the same as         ?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Math.pow yields different result depending on java version\"",
+    "commentid": "q_74342",
+    "date": "Aug 20, 2014 4:56:33 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.8559999999999999,
+        "sent": " i'm running the following code on a jdk version 1.7.0_60:         the result is: 1.1567055833133086    i'm running exactly the same code on a jdk version 1.7.0.    the result is: 1.1567055833133089    i understand that double is not infinitely precise  but was there a change in the java spec that causes the difference?    ps: because we use a legacy system  big decimal is not an option.    edit: i was able to track down the time of the change: it was introduced in the jdk version 1.7.0_40 (as compared to version 1.7.0_25).  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"NoClassDefFoundError: android.support.v7.internal.view.menu.MenuBuilder\"",
+    "commentid": "q_92285",
+    "date": "Jul 17, 2014 10:07:53 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 1.0,
+        "systemtopicid": 1.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Android",
+        "linePolarity": -0.26,
+        "sent": " there is an issue with the android appcompat v7 library on samsung devices running android 4.2. i keep getting crashes with the following stack trace in my developer console:         this is line 215 of customactivity.java:         the crashes come from an array of devices  but always samsung  and always android 4.2.    a quick web search leads me to believe that many people have the same issue  some of the steps i have tried to solve the issue are:      check the android project properties  make sure the appcompat library is added properly.   check the java build path order and export project properties  make sure android dependencies and android private libraries is checked.   confirm the class is included in the library (android.support.v7.internal.view.menu.menubuilder).   confirm r.java is located in gen directory for android.support.v7.appcompat.   confirm the appcompat theme is included in the manifest.xml activity.   clean and rebuild project.      despite these steps  and despite it working on all other devices and android versions the crash reports still come through.  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Assigning List of Integer Into a List of String\"",
+    "commentid": "q_74435",
+    "date": "Aug 20, 2014 2:01:20 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 10.0,
+        "systemtopicid": 10.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Network",
+        "linePolarity": -1.076,
+        "sent": " i was learning generics in java and i came close to a very interesting piece of code. i know in java it is illegal to add list of one type to another.         so in the second line i get a compile time error.  but if i create a generic method inside a class like this          and in the main class call the method with list of integer i am not getting any error.         output             100             foo    why i am not getting any error?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Is it possible to use multiple view resolvers in Spring?\"",
+    "commentid": "q_83801",
+    "date": "Aug 1, 2014 9:53:06 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": 0.18000000000000016,
+        "sent": " i have multiple view resolvers in my spring configuration and i wanted to use different view resolvers depending on conditions.     example for urls started with  . i wanted to use birt view resolver and for ajax calls use tiles resolver and so on.    i tried setting order property but all views are resolved by tilesviewresolver       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Android buildscript repositories. jcenter VS mavencentral\"",
+    "commentid": "q_90987",
+    "date": "Jul 20, 2014 8:51:34 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.33199999999999985,
+        "sent": " the last time i used android studio  it generated   files with   buildscript repositories whereas now there's  .     could anyone explain the issues connected with this. are there any other repos? when should we switch them? what impact do they have on projects  modules  libs? any other essentials for android developers?    who's responsible for maintaining those repos?    regards   "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"How to enable index downloads in Eclipse for Maven search?\"",
+    "commentid": "q_109418",
+    "date": "Jun 16, 2014 2:10:24 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.6680000000000001,
+        "sent": " i am using eclipse luna with the m2e plug-in. when i am searching for some dependency  i get the warning (and see screenshot):        index downloads are disabled  search result may be incomplete.      how can i enable index downloads?       "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Why is hashCode slower than a similar method?\"",
+    "commentid": "q_110289",
+    "date": "Jun 14, 2014 11:32:27 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": -0.35599999999999987,
+        "sent": " normally  java optimizes the virtual calls based on the number of implementations encountered on a given call side. this can be easily seen in the  results  of my  benchmark   when you look at    which is a trivial method returning a stored  . there's a trivial         with a couple of identical implementation like         with increasing number of implementations  the timing of the method call grows from 0.4 ns through 1.2 ns for two implementations to 11.6 ns and then grows slowly. when the jvm has seen multiple implementation  i.e.  with   the timings differ slightly (because of an   test needed).    so far it's all clear  however  the   behaves rather differently. especially  it's 8-10 times slower in three cases. any idea why?    update    i was curious if the poor   could be helped by dispatching manually  and it could a lot.         a couple of branches did the job perfectly:         note that the compiler avoids such optimizations for more than two implementation as most method calls are much more expensive than a simple field load and the gain would be small compared to the code bloat.    the original question \\\" why doesn't jit optimize the   like other methods \\\" remains and   proofs that it indeed could.    update 2    it looks like bestsss is right  at least with this note        calling hashcode() of any class extending base is the same as calling object.hashcode() and this is how it compiles in the bytecode  if you add an explicit hashcode in base that would limit the potential call targets invoking base.hashcode().      i'm not completely sure about what's going on  but declaring   makes a   competitive again.         update 3    ok  providing a  concrete  implementation of   helps  however  the jit must know that it never gets called  as all subclasses defined their own (unless another subclass gets loaded  which can lead to a deoptimization  but this is nothing new for the jit).    so it looks like a missed optimization chance #1.    providing an  abstract  implementation of   works the same. this makes sense  as it provides ensures that no further lookup is needed as each subclass must provide its own (they can't simply inherit from their grandparent).    still for more than two implementations    is so much faster  that the compiler must be doing something subobtimal. maybe a missed optimization chance #2?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Java variable scope in if statement\"",
+    "commentid": "q_2728",
+    "date": "Dec 23, 2014 9:36:26 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.6680000000000001,
+        "sent": " i received a compilation error for the following code:         if i change it to the following code  then there is no compilation error:         why is the first syntax wrong  and from what language standard?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Are there any reasons to have an abstract class with every method in the class defined?\"",
+    "commentid": "q_4856",
+    "date": "Dec 18, 2014 3:31:01 PM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 7.0,
+        "systemtopicid": 7.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Inheritance",
+        "linePolarity": 0.13199999999999967,
+        "sent": " it seems that an abstract class means the definition of the class is not complete and hence cannot be instantiated.    and i saw some simple java code which has an abstract class with all of the methods defined. then i was wondering  why do they make it as an abstract class instead of a real class? are they doing this so we cannot instantiate from this abstract class? or they are getting other benefits from making an abstract class with everything defined?  "
+      }
+    ]
+  },
+  {
+    "author": "blank",
+    "parent": "",
+    "title": "\"Can there be a (Java 7) FileSystem for which a Path .isAbsolute() but has a null root?\"",
+    "commentid": "q_16555",
+    "date": "Nov 29, 2014 5:24:20 AM",
+    "children": [],
+    "sent": [
+      {
+        "topicid": 9.0,
+        "systemtopicid": 9.0,
+        "sentimentwords": [],
+        "sentid": "",
+        "systemlabel": "Eclipse",
+        "linePolarity": -0.3640000000000001,
+        "sent": " the javadoc for     says:        tells whether or not this path is absolute.     an absolute path is complete in that it doesn't need to be combined with other path information in order to locate a file.         returns:      if  and only if  this path is absolute      the javadoc for     says:        returns the root component of this path as a path object  or null if this path does not have a root component.         returns:    a path representing the root component of this path  or        ok  so  i am at a loss here; are there any filesystems out there for which a path may be absolute without a root at all?       edit: note that there can be paths which have a root but are not absolute. for instance  these on windows systems:       ;    .      but i am asking for the  reverse  here: no root and absolute.  "
+      }
+    ]
+  }
+]
+}
